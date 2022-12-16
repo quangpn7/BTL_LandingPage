@@ -1,0 +1,16 @@
+@font-face {
+  font-family: googleSans;
+  src: url("../fonts/GoogleSans-Regular.ttf");
+}
+@font-face {
+  font-family: googleSansBold;
+  src: url("../fonts/GoogleSans-Bold.ttf");
+}
+@font-face {
+  font-family: beVnItalic;
+  src: url("../fonts/BeVietnamPro-Italic.ttf");
+}
+
+body {
+  font-family: googleSans, sans-serif;
+}

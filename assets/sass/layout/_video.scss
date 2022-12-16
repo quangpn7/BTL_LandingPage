@@ -14,5 +14,10 @@ section.video {
       margin-top: 15px;
       border-radius: 30px;
     }
+    p {
+      @include txtStyle(24px, normal, $black-color);
+      margin-top: 25px;
+      line-height: 1;
+    }
   }
 }

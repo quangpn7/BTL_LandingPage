@@ -1,16 +1,19 @@
 section.number {
-  @include innerBackground("../img/g3.jpg", center, cover, 0.8);
+  @include innerBackground("../img/index/bg-2.png", center, cover, 1);
   background-attachment: fixed;
   .number__wrap {
     .number__title {
+      padding-top: 80px;
       h3 {
-        color: $white-color;
+        color: $black-color;
       }
       h1 {
-        color: $txt-dimmer-yellow;
+        @include txtStyle(45px, normal, $black-color);
+        font-family: googleSansBold, serif;
       }
+
       hr {
-        color: $white-color;
+        color: $black-color;
         opacity: 0.4;
       }
     }
@@ -19,15 +22,20 @@ section.number {
       padding-bottom: 40px;
       margin-top: 40px !important;
       .number__item {
-        border-right: rgba(255, 255, 255, 0.421) 1px solid;
-
         .number__item-num {
+          display: inline-block;
+          width: 160px;
+          border-radius: 10px;
+          background-color: $black-color;
           color: $primary-color !important;
           margin-bottom: 5px !important;
+          @include txtStyle(38px, "", $num-yello);
+          font-family: googleSansBold, serif;
         }
         .number__item-txt {
-          padding: 0 30px;
-          color: $white-color;
+          @include txtStyle(24px, "", $black-color);
+          line-height: 1.2;
+          padding: 0 40px;
         }
       }
       .number__item:last-child {

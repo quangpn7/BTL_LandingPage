@@ -1,9 +1,33 @@
 section.why {
-  margin-top: 150px;
-  padding-bottom: 600px;
+  padding-bottom: 140px;
   .why__title {
+    padding-top: 80px;
     h1 {
       color: $icon-yellow;
+    }
+  }
+  .why__grid {
+    width: 80%;
+    max-width: 1300px;
+    margin: 0 auto;
+    margin-top: 70px;
+    .why__row {
+      .why__item {
+        margin-bottom: 30px;
+        .why__txt {
+          margin-left: 20px;
+          h3 {
+            @include txtStyle(24px, bold, $black-color);
+            font-family: googleSansBold;
+            margin-bottom: 5px !important;
+          }
+          p {
+            @include txtStyle(20px, normal, $black-color);
+            margin-bottom: 0;
+            line-height: 1.5;
+          }
+        }
+      }
     }
   }
 }

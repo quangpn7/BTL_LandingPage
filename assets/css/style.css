@@ -1,5 +1,22 @@
 body {
   overflow-x: hidden;
+  font-size: 16;
+}
+
+@font-face {
+  font-family: googleSans;
+  src: url("../fonts/GoogleSans-Regular.ttf");
+}
+@font-face {
+  font-family: googleSansBold;
+  src: url("../fonts/GoogleSans-Bold.ttf");
+}
+@font-face {
+  font-family: beVnItalic;
+  src: url("../fonts/BeVietnamPro-Italic.ttf");
+}
+body {
+  font-family: googleSans, sans-serif;
 }
 
 .slick-prev:before,
@@ -16,6 +33,16 @@ body {
   left: -50px;
 }
 
+.btn-1 {
+  font-weight: bold;
+  border-radius: 35px;
+  font-size: 24px;
+  font-family: googleSansBold, sans-serif;
+  padding: 5px 30px;
+  background-image: linear-gradient(-90deg, rgb(255, 200, 0) 0%, rgb(255, 234, 0) 100%) !important;
+  border: none;
+}
+
 .nav-item {
   margin: 0 15px !important;
 }
@@ -26,21 +53,87 @@ body {
 header {
   position: relative;
 }
+header .header__top {
+  background-image: linear-gradient(90deg, rgb(255, 200, 0) 0%, rgb(255, 234, 0) 100%);
+  width: 100%;
+}
+header .header__top .header__contact {
+  max-width: 1300px;
+}
+header .header__top .header__contact .header__contact-left a {
+  text-decoration: none;
+  font-size: 20px;
+  margin: 0 5px;
+}
+header .header__top .header__contact .header__contact-right img {
+  transition: all 0.3s linear;
+}
+header .header__top .header__contact .header__contact-right img:hover {
+  filter: brightness(10);
+}
 header .header__mid {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/g3.jpg");
+  background-image: url("../img/index/bg-1.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   padding-bottom: 100px;
 }
+header .header__mid .header__nav .navbar .container-fluid {
+  padding: 0;
+}
+header .header__mid .header__nav .navbar .navbar-brand {
+  color: #ffde00 !important;
+  font-size: 50px;
+  font-family: googleSansBold;
+}
+header .header__mid .header__nav .navbar #navbarNav ul li a {
+  font-size: 20px;
+  padding: 0;
+  font-family: googleSans;
+}
+header .header__mid .header__nav .navbar #navbarNav ul li a:hover {
+  color: #ffc901 !important;
+}
+header .header__mid .header__nav .navbar #navbarNav ul li a:hover::after {
+  width: 100%;
+}
+header .header__mid .header__nav .navbar #navbarNav ul li a::after {
+  content: "";
+  display: block;
+  border-bottom: 1px solid #ffc901;
+  width: 0%;
+  transition: all 0.3s linear;
+}
 header .header__mid .header__form {
-  width: 70%;
+  width: 800px;
   margin: 0 auto;
   margin-bottom: 70px;
-  max-width: 800px;
 }
-header .header__mid .header__form p {
-  padding: 0 200px;
+header .header__mid .header__form .header__form-text-box {
+  margin-top: 180px;
+}
+header .header__mid .header__form p.header__title {
+  font-size: 50px;
+  font-weight: bold;
+  color: #ffde00;
+  font-family: googleSansBold, sans-serif;
+  line-height: 1;
+}
+header .header__mid .header__form span {
+  font-size: 30px;
+  font-weight: normal;
+  color: #ffde00;
+  font-family: bevnItalic, sans-serif;
+  line-height: 1;
+}
+header .header__mid .header__form p.header__info {
+  margin-top: 60px;
+  font-size: 24px;
+  font-weight: normal;
+  color: #fff;
+  padding: 0 180px;
+  font-family: googleSans;
+  margin-bottom: 27px;
 }
 header .header__mid .header__form .header__form-input {
   padding: 0 200px;
@@ -102,7 +195,7 @@ section.form .form__left form button {
   border-radius: 10px;
 }
 section.form .form__right {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/g3.jpg");
+  background-image: url("../img/g3.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -134,11 +227,39 @@ section.form .form__right .form__box-txt hr {
 }
 
 section.why {
-  margin-top: 150px;
-  padding-bottom: 600px;
+  padding-bottom: 140px;
+}
+section.why .why__title {
+  padding-top: 80px;
 }
 section.why .why__title h1 {
   color: #ffd400;
+}
+section.why .why__grid {
+  width: 80%;
+  max-width: 1300px;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+section.why .why__grid .why__row .why__item {
+  margin-bottom: 30px;
+}
+section.why .why__grid .why__row .why__item .why__txt {
+  margin-left: 20px;
+}
+section.why .why__grid .why__row .why__item .why__txt h3 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #000000;
+  font-family: googleSansBold;
+  margin-bottom: 5px !important;
+}
+section.why .why__grid .why__row .why__item .why__txt p {
+  font-size: 20px;
+  font-weight: normal;
+  color: #000000;
+  margin-bottom: 0;
+  line-height: 1.5;
 }
 
 section.video {
@@ -156,6 +277,13 @@ section.video .video__wrap .video__frame {
   margin-top: 15px;
   border-radius: 30px;
 }
+section.video .video__wrap p {
+  font-size: 24px;
+  font-weight: normal;
+  color: #000000;
+  margin-top: 25px;
+  line-height: 1;
+}
 
 .title {
   text-align: center;
@@ -170,20 +298,26 @@ section.video .video__wrap .video__frame {
 }
 
 section.number {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/g3.jpg");
+  background-image: url("../img/index/bg-2.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
 }
+section.number .number__wrap .number__title {
+  padding-top: 80px;
+}
 section.number .number__wrap .number__title h3 {
-  color: #fff;
+  color: #000000;
 }
 section.number .number__wrap .number__title h1 {
-  color: #ffd400;
+  font-size: 45px;
+  font-weight: normal;
+  color: #000000;
+  font-family: googleSansBold, serif;
 }
 section.number .number__wrap .number__title hr {
-  color: #fff;
+  color: #000000;
   opacity: 0.4;
 }
 section.number .number__wrap .number__box {
@@ -191,16 +325,24 @@ section.number .number__wrap .number__box {
   padding-bottom: 40px;
   margin-top: 40px !important;
 }
-section.number .number__wrap .number__box .number__item {
-  border-right: rgba(255, 255, 255, 0.421) 1px solid;
-}
 section.number .number__wrap .number__box .number__item .number__item-num {
+  display: inline-block;
+  width: 160px;
+  border-radius: 10px;
+  background-color: #000000;
   color: #ffc901 !important;
   margin-bottom: 5px !important;
+  font-size: 38px;
+  font-weight: "";
+  color: #ffe600;
+  font-family: googleSansBold, serif;
 }
 section.number .number__wrap .number__box .number__item .number__item-txt {
-  padding: 0 30px;
-  color: #fff;
+  font-size: 24px;
+  font-weight: "";
+  color: #000000;
+  line-height: 1.2;
+  padding: 0 40px;
 }
 section.number .number__wrap .number__box .number__item:last-child {
   border: none;
@@ -215,17 +357,47 @@ section.course .course__wrap .course__title h3 {
 }
 section.course .course__wrap .course__title h1 {
   color: #ffd400;
+  font-family: googleSansBold, serif;
+}
+section.course .course__wrap .course__description {
+  max-width: 1300px;
+  width: 90%;
+  margin: 0 auto;
 }
 section.course .course__wrap .course__description .btn-course {
+  position: relative;
   margin: 20px 0;
   border: #fedc00 1px solid;
   border-radius: 40px;
   color: #000000;
-  width: 220px;
+  width: 356px;
+  font-size: 28px;
+  z-index: 10;
+  background-color: #fff;
+  padding-left: 0;
+  padding-right: 0;
+}
+section.course .course__wrap .course__description span {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 200px;
+  width: 260px;
+  text-align: center;
+  background-color: rgb(255, 90, 0);
+  border-radius: 15px;
+  padding: 40px 20px 0 20px;
+  font-size: 18px;
+  font-weight: normal;
+  color: #fff;
+  z-index: 1;
 }
 section.course .course__wrap .course__description .btn-course.active {
   background-color: #fedc00 !important;
-  font-weight: bold;
+  font-family: googleSansBold, googleSans;
 }
 section.course .course__wrap .course__description .tab-pane h3 {
   margin-top: 10px;
@@ -239,6 +411,7 @@ section.course .course__wrap .course__description .tab-pane .course__img {
 section.course .course__wrap .course__description .tab-pane img {
   -o-object-fit: cover;
      object-fit: cover;
+  height: 100%;
 }
 
 section.student {
@@ -347,7 +520,7 @@ section.testi .testi__slider-wrap .testi__slider .testi__item .testi__text p:las
 }
 
 footer {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/g3.jpg");
+  background-image: url("../img/g3.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
