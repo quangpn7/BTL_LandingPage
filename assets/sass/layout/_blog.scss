@@ -1,0 +1,41 @@
+section.blog {
+  background: $gray-white-bg;
+  .blog__wrap {
+    width: 75%;
+    margin: auto;
+    .blog__left {
+      h4 {
+        margin-top: 10px;
+        font-size: 18px;
+        font-weight: bold;
+        color: $txt-dimmer-yellow;
+      }
+      p {
+        font-size: 16;
+      }
+    }
+    .blog__right {
+      .blog__sub {
+        margin-bottom: 10px;
+        .blog__sub-img {
+          height: 100%;
+        }
+        .blog__sub-text {
+          padding: 15px;
+        }
+
+        h4 {
+          margin: 0 !important;
+          font-size: 18px;
+          font-weight: bold;
+          color: $txt-dimmer-yellow;
+        }
+        p {
+          font-size: 14;
+          text-align: justify;
+          margin: 0 !important;
+        }
+      }
+    }
+  }
+}

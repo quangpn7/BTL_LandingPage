@@ -1,0 +1,46 @@
+section.testi {
+  margin-top: 30px;
+  padding-top: 30px;
+  background-color: $pink-color;
+  .testi__title {
+    h1 {
+      color: $txt-dimmer-yellow;
+    }
+  }
+  .testi__slider-wrap {
+    padding-bottom: 50px;
+    min-width: 1000px;
+    .testi__slider {
+      margin-top: 30px;
+      .slick-slide {
+        margin: 0 5px;
+      }
+      .testi__item {
+        img {
+          display: block;
+          border: 10px solid $white-color;
+          border-radius: 50%;
+          width: 60%;
+          margin: 0 auto;
+          margin-bottom: -90px;
+        }
+        .testi__text {
+          text-align: justify;
+          background-color: $white-color;
+          border-radius: 20px;
+          padding: 90px 20px 30px 20px;
+          z-index: 10;
+          h5 {
+            font-weight: bold;
+            text-align: right;
+          }
+          p:last-child {
+            color: $txt-dimmer-yellow;
+            text-align: end;
+            margin-bottom: 0 !important;
+          }
+        }
+      }
+    }
+  }
+}

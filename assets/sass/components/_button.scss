@@ -1,0 +1,13 @@
+// SLIDER BUTTON
+.slick-prev:before,
+.slick-next:before {
+  font-family: "slick";
+  font-size: 42px;
+  line-height: 1;
+  opacity: 1;
+  color: #ffc107;
+  -webkit-font-smoothing: antialiased;
+}
+.slick-prev {
+  left: -50px;
+}

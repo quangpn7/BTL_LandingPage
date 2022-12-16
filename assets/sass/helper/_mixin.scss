@@ -1,0 +1,17 @@
+@mixin innerBackground($src, $position, $size, $opa) {
+  background-image: linear-gradient(rgba(0, 0, 0, $opa), rgba(0, 0, 0, $opa)),
+    url($src);
+  background-repeat: no-repeat;
+  background-position: $position;
+  background-size: $size;
+}
+
+@mixin txtStyle($fz, $fw, $color) {
+  font-size: $fz;
+  font-weight: $fw;
+  color: $color;
+}
+
+@mixin txtColor($color) {
+  color: $color;
+}

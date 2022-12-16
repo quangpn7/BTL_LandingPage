@@ -1,0 +1,38 @@
+section.number {
+  @include innerBackground("../img/g3.jpg", center, cover, 0.8);
+  background-attachment: fixed;
+  .number__wrap {
+    .number__title {
+      h3 {
+        color: $white-color;
+      }
+      h1 {
+        color: $txt-dimmer-yellow;
+      }
+      hr {
+        color: $white-color;
+        opacity: 0.4;
+      }
+    }
+    .number__box {
+      max-width: 1200px;
+      padding-bottom: 40px;
+      margin-top: 40px !important;
+      .number__item {
+        border-right: rgba(255, 255, 255, 0.421) 1px solid;
+
+        .number__item-num {
+          color: $primary-color !important;
+          margin-bottom: 5px !important;
+        }
+        .number__item-txt {
+          padding: 0 30px;
+          color: $white-color;
+        }
+      }
+      .number__item:last-child {
+        border: none;
+      }
+    }
+  }
+}

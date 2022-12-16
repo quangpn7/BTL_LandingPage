@@ -1,0 +1,41 @@
+section.course {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  .course__wrap {
+    .course__title {
+      h3 {
+        color: $black-color;
+      }
+      h1 {
+        color: $txt-dimmer-yellow;
+      }
+    }
+    .course__description {
+      .btn-course {
+        margin: 20px 0;
+        border: $btn-yellow 1px solid;
+        border-radius: 40px;
+        color: $black-color;
+        width: 220px;
+      }
+      .btn-course.active {
+        background-color: $btn-yellow !important;
+        font-weight: bold;
+      }
+      .tab-pane {
+        h3 {
+          margin-top: 10px;
+        }
+        p {
+          text-align: justify;
+        }
+        .course__img {
+          border-radius: 30px;
+        }
+        img {
+          object-fit: cover;
+        }
+      }
+    }
+  }
+}

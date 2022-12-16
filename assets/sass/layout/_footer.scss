@@ -1,0 +1,39 @@
+footer {
+  @include innerBackground("../img/g3.jpg", center, cover, 0.8);
+  background-attachment: fixed;
+  padding-top: 60px;
+  .footer__left {
+    h3 {
+      color: $primary-color;
+      font-weight: 600;
+      font-size: 36px;
+    }
+    p {
+      display: inline-block;
+      color: $white-color;
+      font-size: 20px;
+      font-weight: 600;
+      border: 1px solid $white-color;
+      border-radius: 30px;
+      padding: 0 30px;
+    }
+    ul {
+      li {
+        color: $primary-color;
+        font-weight: bold;
+        span,
+        a {
+          color: $white-color;
+          text-decoration: none;
+          font-weight: normal;
+        }
+      }
+    }
+  }
+  .footer__right {
+    img {
+      display: block;
+      height: 150px;
+    }
+  }
+}
