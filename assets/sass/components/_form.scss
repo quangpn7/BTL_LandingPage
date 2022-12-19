@@ -1,48 +1,26 @@
 section.form {
-  padding-top: 30px;
-  background: rgba(241, 231, 103, 1);
-  background: -moz-linear-gradient(
-    top,
-    rgba(241, 231, 103, 1) 0%,
-    rgba(254, 182, 69, 1) 100%
-  );
-  background: -webkit-gradient(
-    left top,
-    left bottom,
-    color-stop(0%, rgba(241, 231, 103, 1)),
-    color-stop(100%, rgba(254, 182, 69, 1))
-  );
-  background: -webkit-linear-gradient(
-    top,
-    rgba(241, 231, 103, 1) 0%,
-    rgba(254, 182, 69, 1) 100%
-  );
-  background: -o-linear-gradient(
-    top,
-    rgba(241, 231, 103, 1) 0%,
-    rgba(254, 182, 69, 1) 100%
-  );
-  background: -ms-linear-gradient(
-    top,
-    rgba(241, 231, 103, 1) 0%,
-    rgba(254, 182, 69, 1) 100%
-  );
-  background: linear-gradient(
-    to bottom,
-    rgba(241, 231, 103, 1) 0%,
-    rgba(254, 182, 69, 1) 100%
-  );
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#feb645', GradientType=0 );
+  padding-top: 60px;
+  @include innerBackground("../img/bg-gradient-yellow.png", center, cover, 1);
   .form__box {
     margin-top: 20px;
     border-radius: 20px;
-    height: 340px;
+    height: 360px;
   }
   .form__left {
-    background: $btn-yellow;
+    background: $form-yellow;
     z-index: 20;
-    padding: 15px 30px;
+    padding: 20px 30px;
+    max-width: 525px;
+
     form {
+      .form-control,
+      .form-select {
+        font-size: 20px;
+        border: none;
+        &::placeholder {
+          font-style: italic;
+        }
+      }
       input,
       select {
         margin-bottom: 15px;
@@ -55,23 +33,25 @@ section.form {
     }
   }
   .form__right {
-    @include innerBackground("../img/g3.jpg", center, cover, 0.8);
-    margin-left: -80px;
-    z-index: 10;
-    position: relative;
+    @include innerBackground("../img/form-right-bg.png", center, cover, 1);
+    margin-left: -60px;
+    width: 525px;
     .form__box-txt {
       color: $white-color;
-      position: absolute;
+      margin-left: 70px;
       left: 21%;
       top: 32%;
-
-      width: 225px;
-      p {
-        min-width: 410px;
-        margin-bottom: 0 !important;
+      hr {
+        width: 50%;
       }
-      p + span {
-        font-size: 14px;
+      p.form__box-title {
+        margin-bottom: 0 !important;
+        @include txtStyle(20px, normal, $white-color);
+        font-family: googleSans;
+      }
+      p {
+        font-size: 50px;
+        font-family: googleSansBold, serif;
       }
       span {
         line-height: 0.5;

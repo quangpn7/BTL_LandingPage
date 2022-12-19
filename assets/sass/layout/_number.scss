@@ -1,6 +1,6 @@
 section.number {
   @include innerBackground("../img/index/bg-2.png", center, cover, 1);
-  background-attachment: fixed;
+
   .number__wrap {
     .number__title {
       padding-top: 80px;

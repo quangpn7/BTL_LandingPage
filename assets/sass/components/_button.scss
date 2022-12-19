@@ -18,20 +18,42 @@
   font-size: 24px;
   font-family: googleSansBold, sans-serif;
   padding: 5px 30px;
-  // background-image: -moz-linear-gradient(
-  //   180deg,
-  //   rgb(255, 200, 0) 0%,
-  //   rgb(255, 234, 0) 100%
-  // ) !important;
   background-image: linear-gradient(
     -90deg,
     rgb(255, 200, 0) 0%,
     rgb(255, 234, 0) 100%
-  ) !important;
+  );
   border: none;
-  // background-image: -ms-linear-gradient(
-  //   180deg,
-  //   rgb(255, 200, 0) 0%,
-  //   rgb(255, 234, 0) 100%
-  // ) !important;
+} //NAV Button
+.btn-course.active {
+  background-color: $btn-yellow !important;
+  font-family: googleSansBold, googleSans;
+}
+//TEST button
+.btn-course-nav {
+  background-color: $orange-tag-color;
+  border: 1px solid transparent;
+  border-radius: 25px;
+  padding: 0px 26px;
+  cursor: pointer;
+  @include txtStyle(30px, normal, $white-color);
+  text-decoration: none;
+  transition: all 0.2s linear;
+  &:hover {
+    background-color: $white-color;
+    border: 1px solid $orange-tag-color;
+    color: $orange-tag-color;
+  }
+}
+// Register btn
+.btn-register {
+  @extend .btn-course-nav;
+  background: $span-yellow;
+  color: $black-color;
+  padding: 0px 30px;
+  &:hover {
+    background-color: $white-color;
+    border: 1px solid $span-yellow;
+    color: $span-yellow;
+  }
 }
