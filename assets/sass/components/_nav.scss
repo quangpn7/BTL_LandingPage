@@ -4,4 +4,21 @@
   a {
     color: $white-color !important;
   }
+  a.dropdown-item {
+    color: $white-color !important;
+    margin: 5px 0;
+    padding: 0 15px !important;
+    opacity: 1;
+    font-size: 18px !important;
+    &::after {
+      content: "";
+      display: none !important;
+    }
+  }
+}
+
+.dropdown-menu.show {
+  background: rgba(255, 255, 255, 0.145);
+  opacity: 1;
+  margin-top: 10px;
 }

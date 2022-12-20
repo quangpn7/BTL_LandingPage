@@ -1,0 +1,40 @@
+section.problem {
+  padding-top: 100px;
+  .problem__title {
+    margin-bottom: 50px;
+    h1 {
+      color: $txt-dimmer-yellow;
+    }
+  }
+  .problem__container {
+    width: 85%;
+    margin: 0 auto;
+    .problem__left {
+      img {
+        height: 100%;
+        width: 100%;
+      }
+    }
+    .problem__right {
+      gap: 15px;
+      .problem__right-item {
+        padding: 5px;
+        border-radius: 20px;
+        .problem__right-img {
+          padding: 15px;
+          img {
+            display: block;
+          }
+        }
+        .problem__right-text {
+          h4 {
+            margin-bottom: 0;
+          }
+          p {
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+  }
+}

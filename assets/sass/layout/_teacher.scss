@@ -1,0 +1,92 @@
+section.teacher {
+  .teacher__slider {
+    width: 85%;
+    max-width: 1300px;
+    margin: -115px auto 0 auto;
+    padding: 30px;
+    background: $white-color;
+    border-radius: 30px;
+    z-index: 100;
+    position: relative;
+    .teacher__slider-left {
+      .slider-left-img {
+        img {
+          width: 32%;
+          border-radius: 30px;
+        }
+      }
+      h3 {
+        @include txtStyle(36px, normal, $orange-title);
+        font-family: googleSansBold, serif;
+      }
+      p {
+        margin: 30px 0;
+      }
+    }
+    .teacher__slider-right {
+      img {
+        height: 375px;
+        width: 100%;
+        border-radius: 30px;
+        object-fit: cover;
+      }
+      .slick-dots li button:before {
+        font-size: 14px;
+        color: $black-color;
+        opacity: 0.2;
+      }
+      .slick-dots li button:hover,
+      .slick-dots li button:focus {
+        color: $black-color;
+        opacity: 0.7;
+      }
+      .slick-dots li.slick-active button:before {
+        color: $black-color;
+        opacity: 0.7;
+      }
+    }
+  }
+  .teacher__info {
+    width: 85%;
+    margin: 0 auto;
+    max-width: 1300px;
+    .teacher__item {
+      max-width: 1300px;
+      margin: 25px auto;
+      .teacher__img {
+        img {
+          width: 100%;
+          border-radius: 30px;
+        }
+      }
+      .teacher__personal {
+        p {
+          margin-bottom: 0;
+          font-family: googleSansBold, serif;
+        }
+        .teacher__name {
+          p {
+            display: inline-block;
+            @include txtStyle(24px, normal, $txt-yellow);
+            background: $black-color;
+            padding: 0 20px;
+            border-radius: 20px;
+
+            margin-bottom: 10px;
+          }
+          h6 {
+            @include txtStyle(16px, normal, $orange-color);
+            font-family: googleSansBold, serif;
+            margin: 10px 0 10px 20px;
+          }
+        }
+        .teacher__exp {
+          margin-left: 20px;
+        }
+      }
+    }
+  }
+  .teacher__title {
+    margin-top: 80px;
+  }
+}

@@ -1,39 +1,64 @@
 footer {
-  @include innerBackground("../img/g3.jpg", center, cover, 0.8);
-  background-attachment: fixed;
-  padding-top: 60px;
-  .footer__left {
-    h3 {
-      color: $primary-color;
-      font-weight: 600;
-      font-size: 36px;
+  @include innerBackground("../img/footer-thumb.png", center, cover, 1);
+
+  padding: 60px 0;
+  .footer__wrap {
+    max-width: 1300px;
+    margin: 0 auto;
+    .footer__left {
+      h3 {
+        @include txtStyle(36px, normal, $icon-yellow);
+        font-family: googleSansBold, serif;
+        margin-bottom: 0;
+      }
+      p {
+        @include txtStyle(30px, normal, $white-color);
+        font-family: googleSans, serif;
+        margin-bottom: 0;
+      }
+      hr {
+        border: 1px dashed $white-color;
+        opacity: 1;
+        margin: 15px 0;
+        width: 80%;
+      }
+      ul {
+        li {
+          margin: 5px 0;
+          @include txtStyle(20px, normal, $icon-yellow);
+          span,
+          a {
+            color: $white-color;
+            text-decoration: none;
+            font-weight: normal;
+          }
+        }
+      }
     }
-    p {
-      display: inline-block;
-      color: $white-color;
-      font-size: 20px;
-      font-weight: 600;
-      border: 1px solid $white-color;
-      border-radius: 30px;
-      padding: 0 30px;
-    }
-    ul {
-      li {
-        color: $primary-color;
-        font-weight: bold;
-        span,
+    .footer__right {
+      .footer__contact-right {
+        margin-top: 30px;
+        span {
+          @include txtStyle(22px, normal, $white-color);
+          margin-right: 10px;
+        }
         a {
-          color: $white-color;
-          text-decoration: none;
-          font-weight: normal;
+          margin-right: 5px;
+        }
+        img {
+          -webkit-filter: brightness(10);
+          -webkit-transition: all 0.3s linear;
+          &:hover {
+            -webkit-filter: invert(65%) sepia(99%) saturate(1167%)
+              hue-rotate(4deg) brightness(109%) contrast(109%);
+          }
         }
       }
     }
   }
-  .footer__right {
-    img {
-      display: block;
-      height: 150px;
-    }
-  }
+}
+.footer__copy {
+  background: $black-color;
+  @include txtStyle(18px, normal, $span-yellow);
+  padding: 10px 0;
 }

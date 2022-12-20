@@ -1,5 +1,6 @@
 header {
   position: relative;
+
   .header__top {
     background-image: linear-gradient(
       90deg,
@@ -29,6 +30,8 @@ header {
   .header__mid {
     @include innerBackground("../img/index/bg-1.png", center, cover, 1);
     padding-bottom: 100px;
+    z-index: 10;
+
     .header__nav {
       .navbar {
         .container-fluid {
@@ -62,6 +65,15 @@ header {
                   transition: all 0.3s linear;
                 }
               }
+            }
+          }
+          .nav-link.active {
+            color: $primary-color !important;
+            &::after {
+              content: "";
+              display: block;
+              border-bottom: 1px solid $primary-color;
+              width: 100%;
             }
           }
         }
@@ -125,6 +137,84 @@ header {
           right: 0;
           margin: 0 auto;
         }
+      }
+    }
+  }
+}
+
+header.header__teacher {
+  .header__form {
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+    .header__form-text-box {
+      margin-top: 180px;
+    }
+    p.header__title {
+      @include txtStyle(60px, bold, $white-color);
+      font-family: googleSans, sans-serif;
+      line-height: 1;
+    }
+    span {
+      @include txtStyle(60px, normal, $txt-yellow-heading);
+      font-family: googleSans, sans-serif;
+      line-height: 1;
+    }
+    p.header__info {
+      margin-top: 60px;
+      @include txtStyle(24px, normal, $white-color);
+      padding: 0 70px;
+      font-family: googleSans;
+      margin-bottom: 27px;
+    }
+
+    .header__form-input {
+      padding: 0 200px;
+      input {
+        margin: 20px 0;
+      }
+    }
+  }
+}
+header.header__courses {
+  .header__mid {
+    @include innerBackground(
+      "../img/courses/course-bg-1.png",
+      center,
+      cover,
+      1
+    );
+    padding-bottom: 100px;
+    z-index: 10;
+  }
+  .header__form {
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+    .header__form-text-box {
+      margin-top: 180px;
+    }
+    p.header__title {
+      @include txtStyle(60px, bold, $white-color);
+      font-family: googleSans, sans-serif;
+      line-height: 1;
+    }
+    span {
+      @include txtStyle(60px, normal, $txt-yellow-heading);
+      font-family: googleSans, sans-serif;
+      line-height: 1;
+    }
+    p.header__info {
+      margin-top: 60px;
+      @include txtStyle(26px, normal, $white-color);
+      padding: 0 45px;
+      font-family: googleSans;
+      margin-bottom: 27px;
+    }
+    .header__form-input {
+      padding: 0 200px;
+      input {
+        margin: 20px 0;
       }
     }
   }

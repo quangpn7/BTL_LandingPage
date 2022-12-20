@@ -4,12 +4,12 @@ section.form {
   .form__box {
     margin-top: 20px;
     border-radius: 20px;
-    height: 360px;
+    height: 380px;
   }
   .form__left {
     background: $form-yellow;
     z-index: 20;
-    padding: 20px 30px;
+    padding: 20px 30px 10px 30px;
     max-width: 525px;
 
     form {
@@ -29,6 +29,7 @@ section.form {
       button {
         padding: 10px 30px;
         border-radius: 10px;
+        @include txtStyle(24px, normal, $white-color);
       }
     }
   }

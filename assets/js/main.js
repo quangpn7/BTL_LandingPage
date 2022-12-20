@@ -1,3 +1,4 @@
+//#region lib-js
 //initialize vars
 var arrowRight = document.querySelector(".arrow-right"),
   arrowLeft = document.querySelector(".arrow-left"),
@@ -71,3 +72,4 @@ document.body.addEventListener("keydown", function (e) {
       break;
   }
 });
+//#endregion lib-js

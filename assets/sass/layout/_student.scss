@@ -43,3 +43,13 @@ section.student {
     }
   }
 }
+
+section.student.course-page {
+  margin-top: 50px;
+  @include innerBackground(
+    "../img/courses/course-bg-student.png",
+    center,
+    cover,
+    1
+  );
+}

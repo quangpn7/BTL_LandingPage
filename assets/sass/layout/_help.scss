@@ -1,0 +1,35 @@
+section.help {
+  padding-top: 100px;
+
+  .help__title {
+    margin-bottom: 60px;
+    h1 {
+      color: $txt-dimmer-yellow;
+    }
+  }
+  .help__content {
+    max-width: 1300px;
+    width: 85%;
+    margin: 0 auto;
+    .help__content-container {
+      .help__item {
+        .help__img {
+          img {
+            width: 100%;
+          }
+          position: relative;
+        }
+        .help__txt {
+          width: 75%;
+          position: absolute;
+          left: 130px;
+          top: 50%;
+          transform: translateY(-50%);
+          p {
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+  }
+}
