@@ -1,0 +1,71 @@
+section.others {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  @include innerBackground(
+    "../img/courses/courses-others.png",
+    center,
+    cover,
+    1
+  );
+  .others__title {
+    margin-bottom: 40px;
+    h1 {
+      color: $white-color;
+    }
+  }
+
+  .others__container {
+    gap: 20px;
+    width: 70%;
+    max-width: 1300px;
+    margin: 0 auto;
+
+    .others__item {
+      padding: 10px;
+      border-radius: 20px;
+      background: $white-color;
+      overflow: hidden;
+      .others__left {
+        width: 40%;
+        img {
+          width: 100%;
+          height: 100%;
+          border-radius: 20px;
+        }
+      }
+      .others__right {
+        width: 60%;
+
+        .others__txt {
+          margin-left: 10px;
+          color: $white-color;
+          h3 {
+            @include txtStyle(24px, normal, $black-color);
+            margin-bottom: 0;
+            font-family: googleSansBold, serif;
+          }
+          h5 {
+            @include txtStyle(18px, normal, $span-yellow);
+            margin-bottom: 0;
+            font-family: googleSansBold, serif;
+            margin-bottom: 10px;
+          }
+          p {
+            @include txtStyle(16px, normal, $black-color);
+            margin-bottom: 0;
+            text-align: justify;
+          }
+          .btn-course-detail {
+            @extend .btn-register;
+            display: inline-block;
+            margin-top: 10px;
+            font-size: 16px;
+            font-family: googleSansBold, serif;
+            padding: 5px 20px;
+            background: $span-yellow;
+          }
+        }
+      }
+    }
+  }
+}

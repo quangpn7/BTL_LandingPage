@@ -1,0 +1,38 @@
+#accordionFlushExample {
+  .accordion-item,
+  .accordion-item:focus,
+  .accordion-item:active,
+  .accordion-header,
+  .accordion-header:focus,
+  .accordion-header:active,
+  .accordion-button,
+  .accordion-button:focus,
+  .accordion-button:active {
+    outline: none !important;
+  }
+  .accordion-button {
+    border: 1px solid rgba(0, 0, 0, 0.213) !important;
+    border-radius: 50px;
+    padding: 5px 10px 5px 5px !important;
+  }
+
+  .accordion-button:not(.collapsed) {
+    color: $black-color;
+    background-color: $white-color;
+  }
+  .accordion-item {
+    margin: 10px 0;
+    .accordion-button {
+      img {
+        width: 40px;
+        margin-right: 10px;
+      }
+    }
+  }
+}
+.accordion-button {
+  border-width: 0 !important;
+}
+.accordion {
+  --bs-accordion-border-width: 0px;
+}

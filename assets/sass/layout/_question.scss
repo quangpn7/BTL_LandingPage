@@ -1,0 +1,19 @@
+section.questions {
+  padding: 40px 0;
+
+  .questions__title {
+    h1 {
+      color: $txt-yellow-heading;
+    }
+  }
+  .questions__wrap {
+    width: 70%;
+    max-width: 1300px;
+    margin: 0 auto;
+    .questions__right {
+      img {
+        width: 100%;
+      }
+    }
+  }
+}

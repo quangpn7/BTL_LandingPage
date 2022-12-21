@@ -18,6 +18,42 @@ body {
   font-family: googleSans, sans-serif;
 }
 
+#accordionFlushExample .accordion-item,
+#accordionFlushExample .accordion-item:focus,
+#accordionFlushExample .accordion-item:active,
+#accordionFlushExample .accordion-header,
+#accordionFlushExample .accordion-header:focus,
+#accordionFlushExample .accordion-header:active,
+#accordionFlushExample .accordion-button,
+#accordionFlushExample .accordion-button:focus,
+#accordionFlushExample .accordion-button:active {
+  outline: none !important;
+}
+#accordionFlushExample .accordion-button {
+  border: 1px solid rgba(0, 0, 0, 0.213) !important;
+  border-radius: 50px;
+  padding: 5px 10px 5px 5px !important;
+}
+#accordionFlushExample .accordion-button:not(.collapsed) {
+  color: #000000;
+  background-color: #fff;
+}
+#accordionFlushExample .accordion-item {
+  margin: 10px 0;
+}
+#accordionFlushExample .accordion-item .accordion-button img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.accordion-button {
+  border-width: 0 !important;
+}
+
+.accordion {
+  --bs-accordion-border-width: 0px;
+}
+
 .slick-prev:before,
 .slick-next:before {
   font-family: "slick";
@@ -47,7 +83,7 @@ body {
   font-family: googleSansBold, googleSans;
 }
 
-.btn-course-nav, .btn-register {
+.btn-course-nav, .btn-register, section.others .others__container .others__item .others__right .others__txt .btn-course-detail {
   background-color: rgb(255, 90, 0);
   border: 1px solid transparent;
   border-radius: 25px;
@@ -59,18 +95,18 @@ body {
   text-decoration: none;
   transition: all 0.2s linear;
 }
-.btn-course-nav:hover, .btn-register:hover {
+.btn-course-nav:hover, .btn-register:hover, section.others .others__container .others__item .others__right .others__txt .btn-course-detail:hover {
   background-color: #fff;
   border: 1px solid rgb(255, 90, 0);
   color: rgb(255, 90, 0);
 }
 
-.btn-register {
+.btn-register, section.others .others__container .others__item .others__right .others__txt .btn-course-detail {
   background: #ffcc00;
   color: #000000;
   padding: 0px 30px;
 }
-.btn-register:hover {
+.btn-register:hover, section.others .others__container .others__item .others__right .others__txt .btn-course-detail:hover {
   background-color: #fff;
   border: 1px solid #ffcc00;
   color: #ffcc00;
@@ -479,6 +515,9 @@ section.video .video__wrap p {
 }
 .title h3 {
   font-size: 30px;
+}
+.title hr {
+  opacity: 0.8;
 }
 .title hr.first-hr {
   width: 20%;
@@ -897,6 +936,93 @@ section.help .help__content .help__content-container .help__item .help__txt {
 }
 section.help .help__content .help__content-container .help__item .help__txt p {
   margin-bottom: 0;
+}
+
+section.others {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-image: url("../img/courses/courses-others.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+section.others .others__title {
+  margin-bottom: 40px;
+}
+section.others .others__title h1 {
+  color: #fff;
+}
+section.others .others__container {
+  gap: 20px;
+  width: 70%;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+section.others .others__container .others__item {
+  padding: 10px;
+  border-radius: 20px;
+  background: #fff;
+  overflow: hidden;
+}
+section.others .others__container .others__item .others__left {
+  width: 40%;
+}
+section.others .others__container .others__item .others__left img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+section.others .others__container .others__item .others__right {
+  width: 60%;
+}
+section.others .others__container .others__item .others__right .others__txt {
+  margin-left: 10px;
+  color: #fff;
+}
+section.others .others__container .others__item .others__right .others__txt h3 {
+  font-size: 24px;
+  font-weight: normal;
+  color: #000000;
+  margin-bottom: 0;
+  font-family: googleSansBold, serif;
+}
+section.others .others__container .others__item .others__right .others__txt h5 {
+  font-size: 18px;
+  font-weight: normal;
+  color: #ffcc00;
+  margin-bottom: 0;
+  font-family: googleSansBold, serif;
+  margin-bottom: 10px;
+}
+section.others .others__container .others__item .others__right .others__txt p {
+  font-size: 16px;
+  font-weight: normal;
+  color: #000000;
+  margin-bottom: 0;
+  text-align: justify;
+}
+section.others .others__container .others__item .others__right .others__txt .btn-course-detail {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 16px;
+  font-family: googleSansBold, serif;
+  padding: 5px 20px;
+  background: #ffcc00;
+}
+
+section.questions {
+  padding: 40px 0;
+}
+section.questions .questions__title h1 {
+  color: #ffde00;
+}
+section.questions .questions__wrap {
+  width: 70%;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+section.questions .questions__wrap .questions__right img {
+  width: 100%;
 }
 
 footer {
