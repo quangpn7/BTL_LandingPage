@@ -1,66 +1,74 @@
 section.form {
   padding-top: 60px;
   @include innerBackground("../img/bg-gradient-yellow.png", center, cover, 1);
-  .form__box {
-    margin-top: 20px;
-    border-radius: 20px;
-    height: 380px;
-  }
-  .form__left {
-    background: $form-yellow;
-    z-index: 20;
-    padding: 20px 30px 10px 30px;
-    max-width: 525px;
+  .form__container {
+    max-width: 1300px;
+    .form__box {
+      margin-top: 20px;
+      border-radius: 20px;
+      height: 360px;
+    }
+    .form__left {
+      background: $form-yellow;
+      z-index: 20;
+      padding: 20px 30px 10px 30px;
+      max-width: 525px;
 
-    form {
-      .form-control,
-      .form-select {
-        font-size: 20px;
-        border: none;
-        &::placeholder {
-          font-style: italic;
+      form {
+        .form-control,
+        .form-select {
+          font-size: 18px;
+          border: none;
+          &::placeholder {
+            font-style: italic;
+          }
+        }
+        input,
+        select {
+          margin-bottom: 15px;
+          border-radius: 10px;
+        }
+        button {
+          padding: 10px 30px;
+          border-radius: 10px;
+          @include txtStyle(18px, normal, $white-color);
         }
       }
-      input,
-      select {
-        margin-bottom: 15px;
-        border-radius: 10px;
-      }
-      button {
-        padding: 10px 30px;
-        border-radius: 10px;
-        @include txtStyle(24px, normal, $white-color);
-      }
     }
-  }
-  .form__right {
-    @include innerBackground("../img/form-right-bg.png", center, cover, 1);
-    margin-left: -60px;
-    width: 525px;
-    .form__box-txt {
-      color: $white-color;
-      margin-left: 70px;
-      left: 21%;
-      top: 32%;
-      hr {
-        width: 50%;
-      }
-      p.form__box-title {
-        margin-bottom: 0 !important;
-        @include txtStyle(20px, normal, $white-color);
-        font-family: googleSans;
-      }
-      p {
-        font-size: 50px;
-        font-family: googleSansBold, serif;
-      }
-      span {
-        line-height: 0.5;
-      }
-      hr {
-        border: 1px solid $icon-yellow;
-        opacity: 1;
-        margin-top: 5px !important ;
+    .form__right {
+      @include innerBackground("../img/form-right-bg.png", center, cover, 1);
+      margin-left: -60px;
+
+      .form__box-txt {
+        color: $white-color;
+        margin-left: 70px;
+        left: 21%;
+        top: 32%;
+        hr {
+          width: 50%;
+        }
+        p.form__box-title {
+          margin-bottom: 0 !important;
+          @include txtStyle(20px, normal, $white-color);
+          font-family: googleSans;
+        }
+        p {
+          font-size: 40px;
+          font-family: googleSansBold, serif;
+        }
+        span {
+          line-height: 0.5;
+        }
+        hr {
+          border: 1px solid $icon-yellow;
+          opacity: 1;
+          margin-top: 5px !important ;
+        }
+        .form__hotline {
+          img {
+            width: 60px;
+          }
+        }
       }
     }
   }

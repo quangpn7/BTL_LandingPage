@@ -14,7 +14,7 @@ section.student {
       p {
         background: $black-color;
         display: inline;
-        @include txtStyle(30px, normal, $white-color);
+        @include txtStyle(24px, normal, $white-color);
         padding: 5px 30px;
         border-radius: 30px;
 

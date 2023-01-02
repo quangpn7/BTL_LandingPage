@@ -33,8 +33,9 @@ section.number {
           font-family: googleSansBold, serif;
         }
         .number__item-txt {
-          @include txtStyle(24px, "", $black-color);
+          @include txtStyle(20px, "", $black-color);
           line-height: 1.2;
+          margin-top: 15px;
           padding: 0 40px;
         }
       }

@@ -36,7 +36,7 @@
   border-radius: 25px;
   padding: 0px 26px;
   cursor: pointer;
-  @include txtStyle(30px, normal, $white-color);
+  @include txtStyle(24px, normal, $white-color);
   text-decoration: none;
   transition: all 0.2s linear;
   &:hover {

@@ -11,14 +11,20 @@ header {
     .header__contact {
       max-width: 1300px;
       .header__contact-left {
+        img {
+          width: 20px;
+          height: 20px;
+        }
         a {
           text-decoration: none;
-          font-size: 20px;
+          font-size: 15px;
           margin: 0 5px;
         }
       }
       .header__contact-right {
         img {
+          width: 25px;
+          height: 25px;
           transition: all 0.3s linear;
           &:hover {
             filter: brightness(10);
@@ -46,9 +52,9 @@ header {
           ul {
             li {
               a {
-                font-size: 20px;
+                font-size: 16px;
                 padding: 0;
-                font-family: googleSans;
+                font-family: googleSansBold;
                 &:hover {
                   color: $primary-color !important;
                   &::after {

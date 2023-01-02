@@ -89,7 +89,7 @@ body {
   border-radius: 25px;
   padding: 0px 26px;
   cursor: pointer;
-  font-size: 30px;
+  font-size: 24px;
   font-weight: normal;
   color: #fff;
   text-decoration: none;
@@ -163,12 +163,18 @@ header .header__top {
 header .header__top .header__contact {
   max-width: 1300px;
 }
+header .header__top .header__contact .header__contact-left img {
+  width: 20px;
+  height: 20px;
+}
 header .header__top .header__contact .header__contact-left a {
   text-decoration: none;
-  font-size: 20px;
+  font-size: 15px;
   margin: 0 5px;
 }
 header .header__top .header__contact .header__contact-right img {
+  width: 25px;
+  height: 25px;
   transition: all 0.3s linear;
 }
 header .header__top .header__contact .header__contact-right img:hover {
@@ -191,9 +197,9 @@ header .header__mid .header__nav .navbar .navbar-brand {
   font-family: googleSansBold;
 }
 header .header__mid .header__nav .navbar #navbarNav ul li a {
-  font-size: 20px;
+  font-size: 16px;
   padding: 0;
-  font-family: googleSans;
+  font-family: googleSansBold;
 }
 header .header__mid .header__nav .navbar #navbarNav ul li a:hover {
   color: #ffc901 !important;
@@ -372,79 +378,84 @@ section.form {
   background-position: center;
   background-size: cover;
 }
-section.form .form__box {
+section.form .form__container {
+  max-width: 1300px;
+}
+section.form .form__container .form__box {
   margin-top: 20px;
   border-radius: 20px;
-  height: 380px;
+  height: 360px;
 }
-section.form .form__left {
+section.form .form__container .form__left {
   background: #ffed25;
   z-index: 20;
   padding: 20px 30px 10px 30px;
   max-width: 525px;
 }
-section.form .form__left form .form-control,
-section.form .form__left form .form-select {
-  font-size: 20px;
+section.form .form__container .form__left form .form-control,
+section.form .form__container .form__left form .form-select {
+  font-size: 18px;
   border: none;
 }
-section.form .form__left form .form-control::-moz-placeholder, section.form .form__left form .form-select::-moz-placeholder {
+section.form .form__container .form__left form .form-control::-moz-placeholder, section.form .form__container .form__left form .form-select::-moz-placeholder {
   font-style: italic;
 }
-section.form .form__left form .form-control:-ms-input-placeholder, section.form .form__left form .form-select:-ms-input-placeholder {
+section.form .form__container .form__left form .form-control:-ms-input-placeholder, section.form .form__container .form__left form .form-select:-ms-input-placeholder {
   font-style: italic;
 }
-section.form .form__left form .form-control::placeholder,
-section.form .form__left form .form-select::placeholder {
+section.form .form__container .form__left form .form-control::placeholder,
+section.form .form__container .form__left form .form-select::placeholder {
   font-style: italic;
 }
-section.form .form__left form input,
-section.form .form__left form select {
+section.form .form__container .form__left form input,
+section.form .form__container .form__left form select {
   margin-bottom: 15px;
   border-radius: 10px;
 }
-section.form .form__left form button {
+section.form .form__container .form__left form button {
   padding: 10px 30px;
   border-radius: 10px;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: normal;
   color: #fff;
 }
-section.form .form__right {
+section.form .form__container .form__right {
   background-image: url("../img/form-right-bg.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   margin-left: -60px;
-  width: 525px;
 }
-section.form .form__right .form__box-txt {
+section.form .form__container .form__right .form__box-txt {
   color: #fff;
   margin-left: 70px;
   left: 21%;
   top: 32%;
 }
-section.form .form__right .form__box-txt hr {
+section.form .form__container .form__right .form__box-txt hr {
   width: 50%;
 }
-section.form .form__right .form__box-txt p.form__box-title {
+section.form .form__container .form__right .form__box-txt p.form__box-title {
   margin-bottom: 0 !important;
   font-size: 20px;
   font-weight: normal;
   color: #fff;
   font-family: googleSans;
 }
-section.form .form__right .form__box-txt p {
-  font-size: 50px;
+section.form .form__container .form__right .form__box-txt p {
+  font-size: 40px;
   font-family: googleSansBold, serif;
 }
-section.form .form__right .form__box-txt span {
+section.form .form__container .form__right .form__box-txt span {
   line-height: 0.5;
 }
-section.form .form__right .form__box-txt hr {
+section.form .form__container .form__right .form__box-txt hr {
   border: 1px solid #ffd400;
   opacity: 1;
   margin-top: 5px !important;
+}
+section.form .form__container .form__right .form__box-txt .form__hotline img {
+  width: 60px;
 }
 
 section.why {
@@ -465,18 +476,21 @@ section.why .why__grid {
 section.why .why__grid .why__row .why__item {
   margin-bottom: 30px;
 }
+section.why .why__grid .why__row .why__item .why__img img {
+  width: 80px;
+}
 section.why .why__grid .why__row .why__item .why__txt {
   margin-left: 20px;
 }
 section.why .why__grid .why__row .why__item .why__txt h3 {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: bold;
   color: #000000;
   font-family: googleSansBold;
   margin-bottom: 5px !important;
 }
 section.why .why__grid .why__row .why__item .why__txt p {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: normal;
   color: #000000;
   margin-bottom: 0;
@@ -568,10 +582,11 @@ section.number .number__wrap .number__box .number__item .number__item-num {
   font-family: googleSansBold, serif;
 }
 section.number .number__wrap .number__box .number__item .number__item-txt {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: "";
   color: #000000;
   line-height: 1.2;
+  margin-top: 15px;
   padding: 0 40px;
 }
 section.number .number__wrap .number__box .number__item:last-child {
@@ -591,7 +606,7 @@ section.course .course__wrap .course__title h1 {
 }
 section.course .course__wrap .course__description {
   max-width: 1300px;
-  width: 90%;
+  width: 75%;
   margin: 0 auto;
 }
 section.course .course__wrap .course__description .btn-course {
@@ -600,8 +615,8 @@ section.course .course__wrap .course__description .btn-course {
   border: #fedc00 1px solid;
   border-radius: 40px;
   color: #000000;
-  width: 356px;
-  font-size: 28px;
+  width: 260px;
+  font-size: 20px;
   z-index: 10;
   background-color: #fff;
   padding-left: 0;
@@ -611,7 +626,7 @@ section.course .course__wrap .course__description span {
   position: absolute;
   left: 0;
   right: 0;
-  bottom: -10px;
+  bottom: -5px;
   margin-left: auto;
   margin-right: auto;
   padding-top: 200px;
@@ -620,35 +635,34 @@ section.course .course__wrap .course__description span {
   background-color: rgb(255, 90, 0);
   border-radius: 15px;
   padding: 40px 20px 0 20px;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: normal;
   color: #fff;
   z-index: 1;
 }
 section.course .course__wrap .course__description .tab-pane {
-  margin-top: 70px;
+  margin-top: 50px;
 }
 section.course .course__wrap .course__description .tab-pane h3 {
   margin-top: 10px;
-  font-size: 32px;
+  font-size: 24px;
   font-weight: normal;
   color: #000000;
   font-family: googleSansBold, serif;
 }
 section.course .course__wrap .course__description .tab-pane p {
   text-align: justify;
-  font-size: 23px;
+  font-size: 18px;
   font-weight: normal;
   color: #000000;
   font-family: googleSans, serif;
 }
-section.course .course__wrap .course__description .tab-pane .course__img {
+section.course .course__wrap .course__description .tab-pane .course__img img {
   border-radius: 30px;
-}
-section.course .course__wrap .course__description .tab-pane img {
   -o-object-fit: cover;
      object-fit: cover;
-  height: 460px;
+  width: 100%;
+  height: 400px;
 }
 
 section.student {
@@ -665,7 +679,7 @@ section.student .student__wrap .student__title h1 {
 section.student .student__wrap .student__title p {
   background: #000000;
   display: inline;
-  font-size: 30px;
+  font-size: 24px;
   font-weight: normal;
   color: #fff;
   padding: 5px 30px;
@@ -880,10 +894,11 @@ section.problem .problem__title h1 {
   color: #ffd400;
 }
 section.problem .problem__container {
-  width: 85%;
+  width: 75%;
   margin: 0 auto;
 }
 section.problem .problem__container .problem__left img {
+  background-size: cover;
   height: 100%;
   width: 100%;
 }
@@ -899,12 +914,18 @@ section.problem .problem__container .problem__right .problem__right-item .proble
 }
 section.problem .problem__container .problem__right .problem__right-item .problem__right-img img {
   display: block;
+  background-size: cover;
+}
+section.problem .problem__container .problem__right .problem__right-item .problem__right-text {
+  padding: 10px 0px 10px 0px;
 }
 section.problem .problem__container .problem__right .problem__right-item .problem__right-text h4 {
   margin-bottom: 0;
+  font-size: 20px;
 }
 section.problem .problem__container .problem__right .problem__right-item .problem__right-text p {
   margin-bottom: 0;
+  font-size: 16px;
 }
 
 section.help {
@@ -1037,14 +1058,14 @@ footer .footer__wrap {
   margin: 0 auto;
 }
 footer .footer__wrap .footer__left h3 {
-  font-size: 36px;
+  font-size: 28px;
   font-weight: normal;
   color: #ffd400;
   font-family: googleSansBold, serif;
   margin-bottom: 0;
 }
 footer .footer__wrap .footer__left p {
-  font-size: 30px;
+  font-size: 26px;
   font-weight: normal;
   color: #fff;
   font-family: googleSans, serif;
@@ -1058,7 +1079,7 @@ footer .footer__wrap .footer__left hr {
 }
 footer .footer__wrap .footer__left ul li {
   margin: 5px 0;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: normal;
   color: #ffd400;
 }
@@ -1072,7 +1093,7 @@ footer .footer__wrap .footer__right .footer__contact-right {
   margin-top: 30px;
 }
 footer .footer__wrap .footer__right .footer__contact-right span {
-  font-size: 22px;
+  font-size: 18px;
   font-weight: normal;
   color: #fff;
   margin-right: 10px;
@@ -1081,6 +1102,7 @@ footer .footer__wrap .footer__right .footer__contact-right a {
   margin-right: 5px;
 }
 footer .footer__wrap .footer__right .footer__contact-right img {
+  width: 40px;
   -webkit-filter: brightness(10);
   -webkit-transition: all 0.3s linear;
 }
@@ -1090,7 +1112,7 @@ footer .footer__wrap .footer__right .footer__contact-right img:hover {
 
 .footer__copy {
   background: #000000;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: normal;
   color: #ffcc00;
   padding: 10px 0;

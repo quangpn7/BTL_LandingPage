@@ -14,15 +14,20 @@ section.why {
     .why__row {
       .why__item {
         margin-bottom: 30px;
+        .why__img {
+          img {
+            width: 80px;
+          }
+        }
         .why__txt {
           margin-left: 20px;
           h3 {
-            @include txtStyle(24px, bold, $black-color);
+            @include txtStyle(20px, bold, $black-color);
             font-family: googleSansBold;
             margin-bottom: 5px !important;
           }
           p {
-            @include txtStyle(20px, normal, $black-color);
+            @include txtStyle(18px, normal, $black-color);
             margin-bottom: 0;
             line-height: 1.5;
           }

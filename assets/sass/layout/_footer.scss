@@ -7,12 +7,12 @@ footer {
     margin: 0 auto;
     .footer__left {
       h3 {
-        @include txtStyle(36px, normal, $icon-yellow);
+        @include txtStyle(28px, normal, $icon-yellow);
         font-family: googleSansBold, serif;
         margin-bottom: 0;
       }
       p {
-        @include txtStyle(30px, normal, $white-color);
+        @include txtStyle(26px, normal, $white-color);
         font-family: googleSans, serif;
         margin-bottom: 0;
       }
@@ -25,7 +25,7 @@ footer {
       ul {
         li {
           margin: 5px 0;
-          @include txtStyle(20px, normal, $icon-yellow);
+          @include txtStyle(18px, normal, $icon-yellow);
           span,
           a {
             color: $white-color;
@@ -39,13 +39,14 @@ footer {
       .footer__contact-right {
         margin-top: 30px;
         span {
-          @include txtStyle(22px, normal, $white-color);
+          @include txtStyle(18px, normal, $white-color);
           margin-right: 10px;
         }
         a {
           margin-right: 5px;
         }
         img {
+          width: 40px;
           -webkit-filter: brightness(10);
           -webkit-transition: all 0.3s linear;
           &:hover {
@@ -59,6 +60,6 @@ footer {
 }
 .footer__copy {
   background: $black-color;
-  @include txtStyle(18px, normal, $span-yellow);
+  @include txtStyle(16px, normal, $span-yellow);
   padding: 10px 0;
 }

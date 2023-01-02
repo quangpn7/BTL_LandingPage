@@ -7,10 +7,11 @@ section.problem {
     }
   }
   .problem__container {
-    width: 85%;
+    width: 75%;
     margin: 0 auto;
     .problem__left {
       img {
+        background-size: cover;
         height: 100%;
         width: 100%;
       }
@@ -24,14 +25,18 @@ section.problem {
           padding: 15px;
           img {
             display: block;
+            background-size: cover;
           }
         }
         .problem__right-text {
+          padding: 10px 0px 10px 0px;
           h4 {
             margin-bottom: 0;
+            font-size: 20px;
           }
           p {
             margin-bottom: 0;
+            font-size: 16px;
           }
         }
       }
