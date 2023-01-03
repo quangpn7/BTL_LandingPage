@@ -73,7 +73,7 @@
                   </li>
                   <li class="nav-item dropdown">
                     <a
-                      class="nav-link"
+                      class="nav-link active"
                       href="#"
                       role="button"
                       data-bs-toggle="dropdown"
@@ -126,7 +126,7 @@
         <div class="header__form text-center">
           <div class="header__form-text-box">
             <p class="mb-3 header__title">KHOÁ HỌC</p>
-            <span>MASTER PRONOUCIATION</span>
+            <span id="header__course-name">MASTER PRONOUNCIATION</span>
             <p class="header__info text-center">
               Luyện phát âm chuyên sâu 44 âm quốc tế trong hệ thống *IPA
               (International Phonetic Pronounciation)
@@ -151,8 +151,9 @@
           <!-- Right -->
           <div
             class="problem__right col-12 col-lg-7 d-flex flex-column justify-content-between"
+            id="problem__holder"
           >
-            <div class="problem__right-item d-flex align-items-center shadow">
+            <!-- <div class="problem__right-item d-flex align-items-center shadow">
               <div class="problem__right-img text-center">
                 <img src="./assets/icon/icon_7.png" alt="" />
               </div>
@@ -207,7 +208,7 @@
                   architecto.
                 </p>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </section>
@@ -220,8 +221,8 @@
           <hr class="snd-hr" />
         </div>
         <div class="help__content">
-          <div class="help__content-container row g-5">
-            <div class="help__item col-12 col-lg-6">
+          <div class="help__content-container row g-5" id="help__holder">
+            <!-- <div class="help__item col-12 col-lg-6">
               <div class="help__img">
                 <img src="./assets/icon/Shape1.png" alt="..." />
                 <div class="help__txt">
@@ -276,7 +277,7 @@
                   </p>
                 </div>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </section>
@@ -389,7 +390,7 @@
         <div class="others__title title">
           <h1>CÁC KHOÁ HỌC KHÁC</h1>
         </div>
-        <div class="others__container d-flex">
+        <div class="others__container d-flex" id="others__holder">
           <div class="others__item d-flex">
             <div class="others__left">
               <img src="./assets/img/g3.jpg" alt="..." />
@@ -562,7 +563,6 @@
                 </div>
               </div>
               <!-- Q5 -->
-
               <div class="accordion-item">
                 <h2 class="accordion-header" id="flush-headingFive">
                   <button
@@ -690,18 +690,6 @@
         crossorigin="anonymous"
         referrerpolicy="no-referrer"
       ></script>
-      <!-- WAYPOINT -->
-      <script
-        src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"
-        integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA=="
-        crossorigin="anonymous"
-        referrerpolicy="no-referrer"
-      ></script>
-      <!-- COUNT UP -->
-      <script src="./assets/js/jquery.countup.js"></script>
-      <script>
-        $(".counter").countUp();
-      </script>
       <!-- FA5 -->
       <script
         defer
@@ -709,10 +697,10 @@
         integrity="sha384-BtvRZcyfv4r0x/phJt9Y9HhnN5ur1Z+kZbKVgzVBAlQZX4jvAuImlIz+bG7TS00a"
         crossorigin="anonymous"
       ></script>
+      <!-- MAIN LOAD -->
+      <script type="module" src="./assets/js/courses.js"></script>
       <!-- SLICK -->
-
       <script src="./assets/js/slick.js"></script>
-
       <script>
         $(document).ready(function () {
           $(".student__slider-box").slick({

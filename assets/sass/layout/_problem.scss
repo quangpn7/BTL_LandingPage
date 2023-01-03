@@ -7,7 +7,7 @@ section.problem {
     }
   }
   .problem__container {
-    width: 75%;
+    width: 80%;
     margin: 0 auto;
     .problem__left {
       img {
@@ -19,6 +19,10 @@ section.problem {
     .problem__right {
       gap: 15px;
       .problem__right-item {
+        transition: all 0.2s linear;
+        &:hover {
+          transform: scale(1.02);
+        }
         padding: 5px;
         border-radius: 20px;
         .problem__right-img {

@@ -3,6 +3,7 @@ section.form {
   @include innerBackground("../img/bg-gradient-yellow.png", center, cover, 1);
   .form__container {
     max-width: 1300px;
+    margin: 0 auto;
     .form__box {
       margin-top: 20px;
       border-radius: 20px;
