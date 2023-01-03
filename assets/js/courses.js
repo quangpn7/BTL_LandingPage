@@ -20,6 +20,7 @@ switch (urlParam.get("course")) {
 //render name
 const renderCourseName = (courseRender) => {
   document.querySelector("#header__course-name").innerHTML = courseRender?.name;
+  document.querySelector("#help__name").innerHTML = courseRender?.name;
 };
 //render problem
 const renderProblem = (courseRender) => {
@@ -125,7 +126,7 @@ const renderOthers = (courseRender) => {
               : item.offer[0]
           }
         </p>
-        <a href="#" class="btn-course-detail">Xem chi tiết</a>
+        <a href="${item.path}" class="btn-course-detail">Xem chi tiết</a>
       </div>
     </div>
   </div>

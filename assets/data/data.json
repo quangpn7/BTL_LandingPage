@@ -80,6 +80,7 @@
   "course": [
     {
       "courseId": 1,
+      "path": "/courses.html?course=master-pronunciation",
       "name": "MASTER PRONUNCIATION",
       "problem": [
         "Phát âm không chuẩn nên nhiều bạn khó tự tin khi giao tiếp. Các bạn \"sợ\" nói vì ngại bản thân nói mà đối phương không hiểu hoặc đối phương nói mà các bạn không biết có phải đúng nghĩa mà mình đang suy nghĩ không!",
@@ -118,6 +119,7 @@
     },
     {
       "courseId": 2,
+      "path": "/courses.html?course=american-accent",
       "name": "AMERICAN ACCENT",
       "problem": [
         "Nói chuyện ngang phè, gây nên sự mất hứng trong cuộc trò chuyện, khó thuyết phục đối phương theo luận điểm của bản thân, dẫn đến trở ngại lớn trong việc thuyết trình, đàm phán với đối tác quốc tế.",
@@ -157,6 +159,8 @@
     {
       "courseId": 3,
       "name": "ENGLISH IN LIFE",
+      "path": "/courses.html?course=english-in-life",
+
       "problem": [
         "Nắm vững ngữ pháp và một kho tàng từ vựng, nhưng vẫn lúng túng, không phản xạ kịp khi giao tiếp với người bản xứ.",
         "Mong muốn được làm việc trong môi trường quốc tế nhưng không nắm rõ được kĩ năng thuyết trình, viết email…như thế nào cho chuẩn!",
