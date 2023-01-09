@@ -105,7 +105,7 @@ header {
       p.header__info {
         margin-top: 60px;
         @include txtStyle(24px, normal, $white-color);
-        padding: 0 180px;
+        padding: 0 50px;
         font-family: googleSans;
         margin-bottom: 27px;
       }

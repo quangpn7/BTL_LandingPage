@@ -7,12 +7,12 @@ footer {
     margin: 0 auto;
     .footer__left {
       h3 {
-        @include txtStyle(28px, normal, $icon-yellow);
+        @include txtStyle(24px, normal, $icon-yellow);
         font-family: googleSansBold, serif;
         margin-bottom: 0;
       }
       p {
-        @include txtStyle(26px, normal, $white-color);
+        @include txtStyle(20px, normal, $white-color);
         font-family: googleSans, serif;
         margin-bottom: 0;
       }
@@ -20,7 +20,7 @@ footer {
         border: 1px dashed $white-color;
         opacity: 1;
         margin: 15px 0;
-        width: 80%;
+        width: 38%;
       }
       ul {
         li {

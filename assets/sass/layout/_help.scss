@@ -15,17 +15,17 @@ section.help {
       .help__item {
         .help__img {
           img {
+            border-radius: 30px;
             width: 100%;
+            height: 320px;
+            object-fit: cover;
           }
-          position: relative;
         }
         .help__txt {
-          width: 75%;
-          position: absolute;
-          left: 130px;
-          top: 50%;
-          transform: translateY(-50%);
-          p {
+          padding: 30px;
+          ul > li {
+            @include txtStyle(20px, normal, $black-color);
+            margin: 10px 0;
             margin-bottom: 0;
           }
         }

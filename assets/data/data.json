@@ -12,7 +12,7 @@
         "Cô Ruby mô tả cách tạo âm IPA và các kỹ thuật nói hay tiếng Anh như nối âm, ngữ điệu rất chi tiết, dễ hình dung, dễ làm theo.",
         "Cô luôn truyền năng lượng tích cực trong lớp học cũng như tổ chức nhiều hoạt động cho lớp tương tác."
       ],
-      "motto": "Nói tiếng Anh không chỉ đơn thuần là nói mà còn là một màn “performance” (biểu diễn) kết hợp phát âm chuẩn IPA* và nhiều kỹ thuật khác để tạo ra giai điệu trong từng âm tiết, câu từ. Không chỉ giúp học viên nói được mà còn nói hay giống bản ngữ."
+      "motto": "Nói tiếng Anh không chỉ đơn thuần là nói mà còn là một màn “performance” (biểu diễn) kết hợp phát âm chuẩn IPA và nhiều kỹ thuật khác để tạo ra giai điệu trong từng âm tiết, câu từ. Không chỉ giúp học viên nói được mà còn nói hay giống bản ngữ."
     },
     {
       "id": 2,
@@ -82,38 +82,54 @@
       "courseId": 1,
       "path": "courses.html?course=master-pronunciation",
       "name": "MASTER PRONUNCIATION",
+      "desc": "Khoá học tập trung vào các kỹ thuật tạo âm tiếng Anh theo hệ thống ngữ âm quốc tế *IPA gồm 44 âm giúp người học phát âm giống bản ngữ, biết cách đặt răng - môi -lưỡi cho từng âm và tự tin ráp vần đọc từ mới độc lập. Đối tượng: mọi cấp độ với mong muốn cải thiện phát âm chuẩn bản ngữ.",
       "problem": [
-        "Phát âm không chuẩn nên nhiều bạn khó tự tin khi giao tiếp. Các bạn \"sợ\" nói vì ngại bản thân nói mà đối phương không hiểu hoặc đối phương nói mà các bạn không biết có phải đúng nghĩa mà mình đang suy nghĩ không!",
-        "Vì chủ quan, nghĩ rằng chỉ việc \"nghe - lặp lại\" từ mới theo người khác thì bản thân sẽ có phản xạ phát âm. Tuy nhiên, dần dần các bạn bị mất định hương, khi gặp từ mới thì không biết đâu là cách đọc đúng!",
-        "Hiểu được sự quan trọng của việc phát âm chuẩn, nhưng không có người hướng dẫn cùng đống hành nên các bạn không biết bắt đầu học từ đâu? Lộ trình như thế nào là hợp lý? Nhiều khó khăn khi bắt đầu, dẫn đến sự chán nản nhanh chóng.",
-        "Phát âm sai dẫn đến hiểu nhầm về nội dung, gây trở ngại việc thăng tiến trong những buổi thuyết trình, phỏng vấn công việc."
+        "Phát âm không chuẩn bản ngữ, hay thiếu âm cuối",
+        "Không biết khẩu hình miệng khi phát âm",
+        "Thiếu tự tin khi nói do không nhận diện được phiên âm Quốc tế",
+        "Gặp từ mới không biết phát âm, lệ thuộc vào các công cụ hỗ trợ",
+        "Phát âm sai dẫn đến hiểu nhầm trong giao tiếp",
+        "Không có lộ trình học và người hướng dẫn"
       ],
       "offer": [
-        "Học tập bám sát theo giáo trình độc quyền của Beyond The Limits, khóa học sẽ hướng dẫn bạn Tiếng Anh giao tiếp theo phong cách đời sống gần gũi và thương mại trang trọng tích hợp chỉ trong 1 khoá học (Học 1 được 2)",
-        "Lớp học quy mô nhỏ (chỉ từ 4-5 học viên), tối ưu hóa thời gian tương tác giữa giáo viên và từng bạn, nâng cao chất lượng học tập của mỗi học viên. Bên cạnh đó, lớp học với hình thức online nên không ràng buộc địa lý của học viên, tạo cho bạn cảm giác thoải mái nhất khi tham gia khóa học.",
-        "Khóa học sẽ giúp bạn nắm rõ kiến thức nền với giáo viên Việt, nhằm truyền đạt và giải thích kỹ, dễ hiểu hơn. Sau đó, học viên sẽ được thực hành với giáo viên bản ngữ để nói chuyện chuẩn, rèn luyện phản xạ nhanh hơn.",
-        "Trong quá trình học, học viên được cung cấp tài khoản LUYỆN TẬP trực tuyến trong hệ thống bài tập online của trung tâm, giáo viên sẽ theo dõi và bám sát chất lượng học tập của mỗi học viên qua từng ngày. Đặc biệt, tặng ngay trọn bộ video HƯỚNG DẪN phát âm IPA để người học dễ dàng luyện tập tại nhà."
+        "Phát âm chuẩn 44 âm quốc tế trong hệ thống IPA*",
+        "Thành thạo khẩu hình miệng cho răng-môi-lưỡi",
+        "Phân biệt âm hữu thanh, vô thanh, âm chặn, âm liên tục, v.v",
+        "Tự đánh vần, ráp âm và đọc từ mới độc lập",
+        "Phân biệt giọng Anh-Anh và Anh-Mỹ",
+        "Khắc phục lỗi thiếu âm cuối, đọc Vietlish, thiếu hơi",
+        "Hiểu quy tắc phát âm -ED và -S/É dựa vào âm hơi/ tiếng",
+        "Cải thiện kỹ năng Nghe/ Phát âm/ Nói",
+        "Nâng cao vốn từ vựng (700 từ)"
+      ],
+      "highlight": [
+        "Cam kết đầu ra phát âm chuẩn bản ngữ",
+        "Được sửa ghi âm ngoài giờ đến khi tiến bộ",
+        "Nhiều khung giờ học, khai giảng hàng tuần",
+        "Lớp học nhỏ 1-5 học viên, nâng cao thời gian thực hành",
+        "Hệ thống gòm nhiều công cụ học tập tương tác",
+        "Trình độ giáo viên Thạc sĩ, Cử nhân, IELTS, TESOL"
       ],
       "questions": [
         {
           "ask": "Trình độ giáo viên tại Trung tâm như thế nào?",
-          "ans": "Nhằm mục đích cải thiện chất lượng việc học ngôn ngữ của cộng đồng người Việt, Beyond The Limits ưu tiên tuyển chọn đội ngũ giáo viên theo tiêu chí “Có tâm, đủ tầm” để khóa học của chúng tôi mang đến giá trị tốt nhất cho học viên. Về trình độ học vấn, đội ngũ giáo viên của trung tâm 100% sở hữu  IELTS 7.5+,  các thầy cô đều ở học vị cử nhân và thạc sĩ trong lĩnh vực giảng dạy Tiếng Anh từ 5 năm trở lên."
+          "ans": "Nhằm mục đích cải thiện chất lượng việc học ngôn ngữ của cộng đồng người Việt, Beyond The Limits tuyển chọn giáo viên theo tiêu chí “Có tâm, đủ tầm” để khóa học mang đến giá trị tốt nhất cho học viên. Đội ngũ giáo viên của trung tâm sở hữu IELTS 7.5+, học vị Thạc sĩ, Cử nhân trong lĩnh vực giảng dạy Tiếng Anh từ 5 năm trở lên."
         },
         {
           "ask": "Khóa học kéo dài trong bao lâu, mỗi tuần bao nhiêu buổi?",
-          "ans": "Khóa học Master Pronunciation kéo dài liên tục trong 2 tháng, tổng thể gồm 24 buổi (tương ứng mỗi tuần 3 buổi). Đơn vị tiên phong giảng dạy Phát âm Online chuẩn quốc tế với số giờ khoa học để đạt đầu ra theo yêu cầu (30 giờ, 75p/buổi)"
+          "ans": "Khóa học kéo dài liên tục trong 2 tháng, gồm 24 buổi (tương ứng mỗi tuần 3 buổi). Chương trình được thiết kế với số giờ khoa học để đạt đầu ra theo yêu cầu (30 giờ, 75p/buổi). Ngoài ra, học viên còn được trải nghiệm thực hành mọi lúc mọi nơi với các công cụ học tập trên hệ thống."
         },
         {
-          "ask": "Khóa học này bao nhiêu tuổi sẽ học được?",
-          "ans": "Khóa học phát âm chuẩn bản ngữ được đánh giá là một trong những khóa học nền tảng trong bộ môn Tiếng Anh (đặc biệt quan trọng cho kĩ năng Speaking). Vì vậy, khoá học sẽ phù hợp với đa dạng độ tuổi (học sinh, sinh viên, người đi làm…), chỉ cần bạn là người yêu thích Tiếng Anh và xác định được tầm quan trọng của việc phát âm chuẩn trong giao tiếp!"
+          "ask": "Khóa học này dành cho đối tượng nào?",
+          "ans": "Đây là khóa học phát âm nền tảng khi tiếp xúc Tiếng Anh, đặc biệt quan trọng cho kỹ năng “speaking”. Khoá học sẽ phù hợp với đa dạng độ tuổi (sinh viên, người đi làm) và trình độ (cơ bản, nâng cao), chỉ cần bạn là người yêu thích Tiếng Anh và xác định được tầm quan trọng của việc phát âm chuẩn trong giao tiếp!"
         },
         {
-          "ask": "Sau khi học phát âm chuẩn thì nên học thêm kĩ năng gì để speaking tối ưu nhất?",
-          "ans": "Dựa vào lộ trình tiêu chuẩn do Đội ngũ Giáo viên của trung tâm đã nghiên cứu và biên soạn. Bên cạnh việc phát âm đúng, thì “ngữ điệu khi nói” cũng là một yếu tố quan trọng không kém. Vì vậy, Beyond The Limits khuyến khích bạn nên học song song hoặc theo thứ bậc Khóa học của chúng tôi để gặt hái được mục tiêu “Nói chuẩn bản ngữ” mà chúng ta đang hướng đến!"
+          "ask": "Sau khi học phát âm chuẩn thì nên học thêm kĩ năng gì để “speaking” tối ưu nhất?",
+          "ans": "Bên cạnh việc phát âm đúng, thì ngữ điệu, nhấn câu và các kỹ thuật nói nhanh cũng là quan trọng không kém. Tất cả các kỹ thuật nâng cao này sẽ được giảng dạy trong Khoá American Accent - Luyện nói nhanh chuẩn Mỹ. Bạn nên tham gia các khoá học theo lộ trình để đạt được mục tiêu “Nói tiếng Anh chuẩn bản ngữ”. "
         },
         {
           "ask": "Có chương trình ưu đãi trợ giá cho học viên mới không?",
-          "ans": "Nhằm tạo điều kiện tốt nhất cho các bạn, Beyond The Limits cập nhật liên tục CTKM hằng tháng tại Fanpage. Xin mời bạn theo dõi Fanpage để nhận được CTKM sớm nhất của chúng tôi nhé!\nLink Fanpage: https://www.facebook.com/beyond.the.limits05"
+          "ans": "Nhằm tạo điều kiện tốt nhất cho học viên, chúng tôi cập nhật liên tục CTKM hằng tháng tại Fanpage: https://www.facebook.com/beyond.the.limits05"
         }
       ]
     },
@@ -121,38 +137,59 @@
       "courseId": 2,
       "path": "courses.html?course=american-accent",
       "name": "AMERICAN ACCENT",
+      "desc": "Khoá học tập trung vào các kỹ thuật “speaking” nâng cao giúp người học nói tiếng Anh trôi chảy, tự nhiên, có giai điệu và chất giọng giống bản ngữ. Một số kỹ thuật tiêu biểu như: nối âm (linking sounds), ngữ điệu (intonation), nhấn câu (sentence stress), chuyển giọng cổ (voice placement). Đối tượng: đã thành thạo *IPA với mong muốn nói có kỹ thuật tự nhiên, trôi chảy.",
       "problem": [
-        "Nói chuyện ngang phè, gây nên sự mất hứng trong cuộc trò chuyện, khó thuyết phục đối phương theo luận điểm của bản thân, dẫn đến trở ngại lớn trong việc thuyết trình, đàm phán với đối tác quốc tế.",
-        "Nội dung của câu nói đôi khi bị “biến dạng” nếu bạn không đặt cảm xúc vào câu nói đó! Trong trường hợp này, sẽ dễ gây hiểu lầm giữa bạn và mọi người.",
-        "Vì không nắm được các kĩ thuật lên - xuống giọng, chặn âm, nối âm…nên thường xuyên không nghe được đối phương nói gì? Làm gián đoạn cuộc đối thoại, dần dần có cảm giác mất tự tin giao tiếp.",
-        "Chỉ biết dùng từ ngữ phổ thông, rập khuôn… Thiếu đi tính thân mật và thể hiện tình cảm trong câu nói, biểu đạt câu nói chưa thể trọn nghĩa theo ý riêng bản thân."
+        "Nói chuyện ngang, không có độ lên/ xuống",
+        "Nói từng từ rời rạc, ngắt quãng",
+        "Không có ngữ điệu thể hiện cảm xúc ",
+        "Không có giai điệu, nhấn nhá trong câu nói",
+        "Chư biết cách nói nhanh, trôi chảy ",
+        "Khó khăn khi nghe cả đoạn hội thoại dài đọc nhanh",
+        "Sử dụng từ vựng phổ thông rập khuôn, thiếu sự gần gũi",
+        "Chất giọng chưa có độ vang trầm giống bản ngữ",
+        "Hiểu lầm khi giao tiếp do không biết các kỹ thuật được bản ngữ ứng dụng trong câu nói"
       ],
       "offer": [
-        "Học tập bám sát theo giáo trình độc quyền của Beyond The Limits, được Giáo viên chuyên môn hướng dẫn các kĩ thuật để thể hiện ngữ điệu trong từng dạng câu nói: Nhấn âm tiết,từ, câu ;  âm “Schwa”; Giảm lượt khi đọc ; Chuyển giọng mũi đặc trưng của châu Á...",
-        "Lớp học quy mô nhỏ (chỉ từ 4-5 học viên), tối ưu hóa thời gian tương tác giữa giáo viên và từng bạn, nâng cao chất lượng học tập của mỗi học viên. Bên cạnh đó, lớp học với hình thức online nên không ràng buộc địa lý của học viên, tạo cho bạn cảm giác thoải mái nhất khi tham gia khóa học.",
-        "Kiểm tra đầu vào MIỄN PHÍ, giúp bạn định hình được trình độ của bản thân như thế nào và cần khắc phục, cải thiện ra sao. Tư vấn lộ trình cụ thể dựa vào năng lực hiện tại của bạn!",
-        "Trong quá trình học, học viên được cung cấp tài khoản LUYỆN TẬP trực tuyến trong hệ thống bài tập online của trung tâm, giáo viên sẽ theo dõi và bám sát chất lượng học tập của mỗi học viên qua từng ngày. Đặc biệt, tặng ngay trọn bộ video HƯỚNG DẪN phát âm IPA để người học dễ dàng luyện tập tại nhà."
+        "Thành thạo kỹ thuật nối âm, chặn âm",
+        "Chuyển âm schwa, lượt âm tiết, dùng từ viết tắt để nói nhanh",
+        "Nhấn câu tạo giai điệu nhanh-chậm, to-nhỏ",
+        "Ngữ điệu lên/ xuống thể hiện cảm xúc theo từng dạng câu",
+        "Nói theo phong cách thân mật, gần gũi",
+        "Phản xạ nói theo cụm, không nói từng từ riêng lẻ, tạo tính mạch lạc",
+        "Áp dụng kỹ thuật “shadowing” để thực hành Nghe/ Nói chuẩn bản ngữ",
+        "Chuyển giọng cổ trầm vang, giống chất giọng phương Tây",
+        "Nâng cao vốn từ vựng (700 từ)",
+        "Nắm vững một số cấu trúc ngữ pháp và tự đặt câu đơn giản"
+      ],
+      "highlight": [
+        "Cam kết đầu ra nói nhanh lưu loát, có ngữ điệu",
+        "Thực hành nhiều kỹ thuật luyện giọng nâng cao",
+        "Được sửa ghi âm ngoài giờ đến khi tiến bộ",
+        "Nhiều khung giờ học, khai giảng hàng tuần ",
+        "Lớp học nhỏ 1-5 họ viên, nâng cao thời gian thực hành",
+        "Hệ thống gồm nhiều công cụ học tập tương tác",
+        "Trình độ giáo viên Thạc sĩ, Cử nhân, IELTS, TESOL"
       ],
       "questions": [
         {
           "ask": "Trình độ giáo viên tại Trung tâm như thế nào?",
-          "ans": "Nhằm mục đích cải thiện chất lượng việc học ngôn ngữ của cộng đồng người Việt, Beyond The Limits ưu tiên tuyển chọn đội ngũ giáo viên theo tiêu chí “Có tâm, đủ tầm” để khóa học của chúng tôi mang đến giá trị tốt nhất cho học viên. Về trình độ học vấn, đội ngũ giáo viên của trung tâm 100% sở hữu  IELTS 7.5+,  các thầy cô đều ở học vị cử nhân và thạc sĩ trong lĩnh vực giảng dạy Tiếng Anh từ 5 năm trở lên."
+          "ans": "Nhằm mục đích cải thiện chất lượng việc học ngôn ngữ của cộng đồng người Việt, Beyond The Limits tuyển chọn giáo viên theo tiêu chí “Có tâm, đủ tầm” để khóa học mang đến giá trị tốt nhất cho học viên. Đội ngũ giáo viên của trung tâm sở hữu IELTS 7.5+, học vị Thạc sĩ, Cử nhân trong lĩnh vực giảng dạy Tiếng Anh từ 5 năm trở lên."
         },
         {
           "ask": "Khóa học kéo dài trong bao lâu, mỗi tuần bao nhiêu buổi?",
-          "ans": "Khóa học American Accent kéo dài liên tục trong 2 tháng, tổng thể gồm 24 buổi (tương ứng mỗi tuần 3 buổi). Đơn vị tiên phong giảng dạy Phát âm Online chuẩn quốc tế với số giờ khoa học để đạt đầu ra theo yêu cầu (30 giờ, 75p/buổi)"
+          "ans": "Khóa học kéo dài liên tục trong 2 tháng, gồm 24 buổi (tương ứng mỗi tuần 3 buổi). Chương trình được thiết kế với số giờ khoa học để đạt đầu ra theo yêu cầu (30 giờ, 75p/buổi). Ngoài ra, học viên còn được trải nghiệm thực hành mọi lúc mọi nơi với các công cụ học tập trên hệ thống."
         },
         {
-          "ask": "Khóa học này bao nhiêu tuổi sẽ học được?",
-          "ans": "Khóa học American Accent được giáo viên Beyond The Limits đánh giá như một kĩ năng bổ trợ tốt trong việc nói và giao tiếp Tiếng Anh. Vì vậy, điều kiện cần và đủ để học tốt khóa học này là bạn nên nắm chắc khả năng phát âm chuẩn hệ thống IPA, ngoài ra khóa học sẽ không ràng buộc giới hạn tuổi tham gia!"
+          "ask": "Khóa học này dành cho đối tượng nào?",
+          "ans": "Đây là khoá học chuyên về kỹ năng nói nhanh nâng cao, bổ trợ tốt cho quá trình giao tiếp lưu loát chuẩn bản ngữ. Điều kiện cần và đủ để học tốt khóa học này là học viên đã nắm chắc kỹ năng phát âm theo hệ thống *IPA."
         },
         {
-          "ask": "Nếu chỉ học khóa American Accent mà không học khóa Master Pronuciation thì được không?",
-          "ans": "Beyond The Limits khuyến khích bạn nên học cả 2 khóa để nắm chắc nền tảng phát âm IPA trước. Tuy nhiên, trung tâm sẽ gửi bạn bài test về phát âm, nếu bài test của bạn được giáo viên đánh giá tốt thì bạn có thể học ngay khóa American Accent mà không cần học khóa Master Pronunciation trước đó."
+          "ask": "Nếu chỉ học Khóa American Accent - Nói nhanh chuẩn Mỹ mà không tham gia Khóa Master Pronunciation - Phát âm chuẩn *IPA  thì được không?",
+          "ans": "Chúng tôi khuyến khích bạn nên học cả 2 khóa để nắm chắc nền tảng phát âm theo hệ thống âm quốc tế trước, sau đó luyện kỹ thuật nâng cao sẽ dễ dàng và hiệu quả hơn."
         },
         {
           "ask": "Có chương trình ưu đãi trợ giá cho học viên mới không?",
-          "ans": "Nhằm tạo điều kiện tốt nhất cho các bạn, Beyond The Limits cập nhật liên tục CTKM hằng tháng tại Fanpage. Xin mời bạn theo dõi Fanpage để nhận được CTKM sớm nhất của chúng tôi nhé!\nLink Fanpage: https://www.facebook.com/beyond.the.limits05"
+          "ans": "Nhằm tạo điều kiện tốt nhất cho học viên, chúng tôi cập nhật liên tục CTKM hằng tháng tại Fanpage: https://www.facebook.com/beyond.the.limits05"
         }
       ]
     },
@@ -160,44 +197,63 @@
       "courseId": 3,
       "name": "ENGLISH IN LIFE",
       "path": "courses.html?course=english-in-life",
-
+      "desc": "Khoá học tập trung vào giao tiếp theo chủ đề đời sống và công sở giúp người học tự tin phản xạ nhanh khi gặp tình huống thực tế và nâng cao kỹ năng mềm. Một số chủ đề tiêu biểu như: giới thiệu bản thân/ gia đình/ công việc, mô tả thói quen/ sở thích/ kỳ nghỉ/ chuyến công tác, cách thuyết trình/ gọi điện cho khách hàng, v.v. Đối tượng: mọi đối tượng (A1-B2) với mong muốn giao tiếp trong đời sống/ công sở.",
       "problem": [
-        "Nắm vững ngữ pháp và một kho tàng từ vựng, nhưng vẫn lúng túng, không phản xạ kịp khi giao tiếp với người bản xứ.",
-        "Mong muốn được làm việc trong môi trường quốc tế nhưng không nắm rõ được kĩ năng thuyết trình, viết email…như thế nào cho chuẩn!",
-        "Từ vừng sử dụng trong công sở quá khác biệt so với văn phong được học trong sách vở trước đây.",
-        "Chỉ biết dùng từ ngữ phổ thông, rập khuôn… Thiếu đi tính thân mật và thể hiện tình cảm trong câu nói, biểu đạt câu nói chưa thể trọn nghĩa theo ý riêng bản thân.",
-        "Cần giao tiếp cùng người bản xứ nhiều để thực hành, rèn luyện thêm, nhưng không biết phải nhờ ai giúp đỡ!"
+        "Sở hữu nhiều từ vựng, ngữ pháp nhưng lúng túng khi đặt câu",
+        "Không phản xạ kịp khi giao tiếp với người bản ngữ",
+        "Chưa phân biệt được văn phong gần gũi đời sống và trang trọng văn phòng",
+        "Thiếu từ vựng theo nhiều chủ đề đời sống hằng ngày để mở rộng cuộc đối thoại",
+        "Cần nâng cấp từ vựng/ mẫu câu chủ đề công sở để giao tiếp với đồng nghiệp, đối tác, cấp trên",
+        "Mong muốn trau dồi kỹ năng mềm có sử dụng tiếng Anh như thuyết trình, đàm phán, chủ trì cuộc họp, phỏng vấn, v.v",
+        "Thiếu tự tin khi xin việc ở các công ty đa quốc gia vì rào cản tiếng Anh ",
+        "Cần có môi trường giao tiếp và người hướng dẫn để duy trì, rèn luyện tiếng Anh mỗi ngày"
       ],
       "offer": [
-        "Học tập bám sát theo giáo trình độc quyền của Beyond The Limits, khóa học sẽ hướng dẫn bạn Tiếng Anh giao tiếp theo phong cách đời sống gần gũi và thương mại trang trọng tích hợp chỉ trong 1 khoá học (Học 1 được 2)",
-        "Lớp học quy mô nhỏ (chỉ từ 4-5 học viên), tối ưu hóa thời gian tương tác giữa giáo viên và từng bạn, nâng cao chất lượng học tập của mỗi học viên. Bên cạnh đó, lớp học với hình thức online nên không ràng buộc địa lý của học viên, tạo cho bạn cảm giác thoải mái nhất khi tham gia khóa học.",
-        "Khóa học sẽ giúp bạn nắm rõ kiến thức nền với giáo viên Việt, nhằm truyền đạt và giải thích kỹ, dễ hiểu hơn. Sau đó, học viên sẽ được thực hành với giáo viên bản ngữ để nói chuyện chuẩn, rèn luyện phản xạ nhanh hơn.",
-        "Trong quá trình học, học viên được cung cấp tài khoản LUYỆN TẬP trực tuyến trong hệ thống bài tập online của trung tâm, giáo viên sẽ theo dõi và bám sát chất lượng học tập của mỗi học viên qua từng ngày. Đặc biệt, tặng ngay trọn bộ video HƯỚNG DẪN phát âm IPA để người học dễ dàng luyện tập tại nhà."
+        "Tăng cường từ vựng, cấu trúc câu, thành ngữ để giao tiếp hiệu quả",
+        "Phản xạ nhanh trong các tình huống giao tiếp đời sống và công sở",
+        "Rèn luyện tư duy suy nghĩ bằng tiếng Anh và phát triển ý tưởng để nói mạch lạc ",
+        "Tự tin trình bày các chủ đề cá nhân như sở thích, gia đình, công việc lý tưởng, ...",
+        "Phát triển kỹ năng tiếng Anh và kỹ năng mềm như thuyết trình, gọi điện thoại khách hàng, chủ trì cuộc họp, v.v",
+        "Văn phong giao tiếp hiện đại giúp dễ dàng hòa nhập môi trường quốc tế",
+        "Thực hành giao tiếp theo tình huống, nhận feedback cải thiện thêm từ giáo viên",
+        "Được chỉnh sửa phát âm, nói với đa dạng ngữ điệu và nhấn câu",
+        "Tiếp cận môi trường nói tiếng Anh có giáo viên Việt Nam và bản ngữ hướng dẫn ",
+        "Nâng cao vốn từ vựng (1000 từ)"
+      ],
+      "highlight": [
+        "Giáo viên Việt Nam và bản ngữ xuyên suốt",
+        "Cam kết đầu ra giao tiếp phản xạ nhanh",
+        "Thực hành nhiều tình huống đời sống gần gũi và công sở trang trọng",
+        "Nâng cao kỹ năng tiếng Anh và kỹ năng mềm",
+        "Nhiều khung giờ học, khai giảng hàng tuần ",
+        "Lớp học nhỏ 1-5 họ viên, nâng cao thời gian thực hành",
+        "Hệ thống gồm nhiều công cụ học tập tương tác",
+        "Trình độ giáo viên Thạc sĩ, Cử nhân, IELTS, TESOL"
       ],
       "questions": [
         {
           "ask": "Trình độ giáo viên tại Trung tâm như thế nào?",
-          "ans": "Nhằm mục đích cải thiện chất lượng việc học ngôn ngữ của cộng đồng người Việt, Beyond The Limits ưu tiên tuyển chọn đội ngũ giáo viên theo tiêu chí “Có tâm, đủ tầm” để khóa học của chúng tôi mang đến giá trị tốt nhất cho học viên. Về trình độ học vấn, đội ngũ giáo viên của trung tâm 100% sở hữu  IELTS 7.5+,  các thầy cô đều ở học vị cử nhân và thạc sĩ trong lĩnh vực giảng dạy Tiếng Anh từ 5 năm trở lên."
+          "ans": "Nhằm mục đích cải thiện chất lượng việc học ngôn ngữ của cộng đồng người Việt, Beyond The Limits tuyển chọn giáo viên theo tiêu chí “Có tâm, đủ tầm” để khóa học mang đến giá trị tốt nhất cho học viên. Đội ngũ giáo viên của trung tâm sở hữu IELTS 7.5+, học vị Thạc sĩ, Cử nhân trong lĩnh vực giảng dạy Tiếng Anh từ 5 năm trở lên."
         },
         {
           "ask": "Khóa học kéo dài trong bao lâu, mỗi tuần bao nhiêu buổi?",
-          "ans": "Khóa học English In Life kéo dài liên tục trong 2 tháng, tổng thể gồm 24 buổi (tương ứng mỗi tuần 3 buổi). Đơn vị tiên phong giảng dạy Phát âm Online chuẩn quốc tế với số giờ khoa học để đạt đầu ra theo yêu cầu (30 giờ, 75p/buổi)"
+          "ans": "Khóa học kéo dài liên tục trong 2 tháng, gồm 24 buổi (tương ứng mỗi tuần 3 buổi). Chương trình được thiết kế với số giờ khoa học để đạt đầu ra theo yêu cầu (30 giờ, 75p/buổi). Ngoài ra, học viên còn được trải nghiệm thực hành mọi lúc mọi nơi với các công cụ học tập trên hệ thống."
         },
         {
-          "ask": "Khóa học này bao nhiêu tuổi sẽ học được?",
-          "ans": "Khóa học sẽ không giới hạn về tuổi đối với học viên! Tuy nhiên, bạn sẽ được test đầu vào (miễn phí), giáo viên chuyên môn sẽ đánh giá sơ bộ về kĩ năng hiện tại của bạn đang ở mức độ nào và đưa ra lời góp ý về lộ trình cần cải thiện."
+          "ask": "Khóa học này dành cho đối tượng nào",
+          "ans": "Khóa học dàn trải mọi cấp độ A1-A2-B1-B2 (từ cơ bản đến trung cấp) dành cho sinh viên và người đi làm! Tuy nhiên, bạn sẽ được test đầu vào (miễn phí), giáo viên chuyên môn sẽ đánh giá sơ bộ về kĩ năng hiện tại để đưa ra lộ trình cần cải thiện."
         },
         {
           "ask": "Hình thức học khóa English In Life như thế nào?",
           "ans": [
-            "Học với phương pháp SCAFFOLDING: Giáo viên chia nhỏ kiến thức và gợi mở bằng nhiều hoạt động khác nhau để học viên tự suy luận và nhớ lâu hơn.",
-            "Lớp học tổ chức các hoạt động tương tác giúp học viên tập trung 100%, thực hành liên tục.",
-            "Học giao tiếp theo chủ đề, tăng vốn từ vựng/ ngữ pháp và được giáo viên (Việt/ bản ngữ) chỉnh sửa phát âm/ ngữ điệu..."
+            "Hằng tuần, học 2 buổi kiến thức nền với giáo viên Việt Nam và 1 buổi thực hành chuyên sâu với giáo viên Bản ngữ",
+            "Lớp học tổ chức các hoạt động đối thoại theo tình huống giúp học viên tập trung 100%, thực hành liên tục, nhớ sâu",
+            "Học giao tiếp theo nhiều chủ đề, tăng vốn từ vựng/ ngữ pháp và luôn được giáo viên chỉnh sửa phát âm/ ngữ điệu"
           ]
         },
         {
           "ask": "Có chương trình ưu đãi trợ giá cho học viên mới không?",
-          "ans": "Nhằm tạo điều kiện tốt nhất cho các bạn, Beyond The Limits cập nhật liên tục CTKM hằng tháng tại Fanpage. Xin mời bạn theo dõi Fanpage để nhận được CTKM sớm nhất của chúng tôi nhé!\nLink Fanpage: https://www.facebook.com/beyond.the.limits05"
+          "ans": "Nhằm tạo điều kiện tốt nhất cho học viên, chúng tôi cập nhật liên tục CTKM hằng tháng tại Fanpage: https://www.facebook.com/beyond.the.limits05"
         }
       ]
     }

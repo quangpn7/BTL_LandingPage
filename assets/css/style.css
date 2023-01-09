@@ -93,9 +93,9 @@ body {
   background-color: rgb(255, 90, 0);
   border: 1px solid transparent;
   border-radius: 25px;
-  padding: 0px 26px;
+  padding: 0px 15px;
   cursor: pointer;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: normal;
   color: #fff;
   text-decoration: none;
@@ -256,7 +256,7 @@ header .header__mid .header__form p.header__info {
   font-size: 24px;
   font-weight: normal;
   color: #fff;
-  padding: 0 180px;
+  padding: 0 50px;
   font-family: googleSans;
   margin-bottom: 27px;
 }
@@ -465,6 +465,9 @@ section.form .form__container .form__right .form__box-txt .form__hotline img {
   width: 60px;
 }
 
+section.why {
+  padding-bottom: 50px;
+}
 section.why .why__title {
   padding-top: 80px;
 }
@@ -500,6 +503,7 @@ section.why .why__grid .why__row .why__item .why__txt p {
   color: #000000;
   margin-bottom: 0;
   line-height: 1.5;
+  text-align: justify;
 }
 
 section.video {
@@ -592,7 +596,7 @@ section.number .number__wrap .number__box .number__item .number__item-txt {
   color: #000000;
   line-height: 1.2;
   margin-top: 15px;
-  padding: 0 40px;
+  padding: 0 55px;
 }
 section.number .number__wrap .number__box .number__item:last-child {
   border: none;
@@ -635,7 +639,7 @@ section.course .course__wrap .course__description span {
   margin-left: auto;
   margin-right: auto;
   padding-top: 200px;
-  width: 210px;
+  width: 185px;
   text-align: center;
   background-color: rgb(255, 90, 0);
   border-radius: 15px;
@@ -872,8 +876,8 @@ section.teacher .teacher__info .teacher__item .teacher__personal .teacher__name 
   display: inline-block;
   font-size: 24px;
   font-weight: normal;
-  color: #ffde02;
-  background: #000000;
+  color: #000000;
+  background: #ffde02;
   padding: 0 20px;
   border-radius: 20px;
   margin-bottom: 10px;
@@ -939,6 +943,19 @@ section.problem .problem__container .problem__right .problem__right-item .proble
   margin-bottom: 0;
   font-size: 16px;
 }
+section.problem .problem__container .problem__right#problem__holder ul {
+  list-style-type: square;
+}
+section.problem .problem__container .problem__right#problem__holder ul li {
+  margin: 15px 0;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000000;
+}
+section.problem .problem__container .problem__right#problem__holder ul li::marker {
+  color: #ff5a00;
+  font-size: 30px;
+}
 
 section.help {
   padding-top: 100px;
@@ -954,20 +971,47 @@ section.help .help__content {
   width: 85%;
   margin: 0 auto;
 }
-section.help .help__content .help__content-container .help__item .help__img {
-  position: relative;
-}
 section.help .help__content .help__content-container .help__item .help__img img {
+  border-radius: 30px;
   width: 100%;
+  height: 320px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 section.help .help__content .help__content-container .help__item .help__txt {
-  width: 75%;
-  position: absolute;
-  left: 130px;
-  top: 50%;
-  transform: translateY(-50%);
+  padding: 30px;
 }
-section.help .help__content .help__content-container .help__item .help__txt p {
+section.help .help__content .help__content-container .help__item .help__txt ul > li {
+  font-size: 20px;
+  font-weight: normal;
+  color: #000000;
+  margin: 10px 0;
+  margin-bottom: 0;
+}
+
+section.highlight {
+  padding: 80px 0;
+}
+section.highlight .highlight__title {
+  margin-bottom: 60px;
+}
+section.highlight .highlight__content {
+  width: 80%;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+section.highlight .highlight__content .highlight__left img {
+  width: 100%;
+  height: 300px;
+  border-radius: 30px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+section.highlight .highlight__content .highlight__right ul > li {
+  font-size: 20px;
+  font-weight: normal;
+  color: #000000;
+  margin: 10px 0;
   margin-bottom: 0;
 }
 
@@ -1070,14 +1114,14 @@ footer .footer__wrap {
   margin: 0 auto;
 }
 footer .footer__wrap .footer__left h3 {
-  font-size: 28px;
+  font-size: 24px;
   font-weight: normal;
   color: #ffd400;
   font-family: googleSansBold, serif;
   margin-bottom: 0;
 }
 footer .footer__wrap .footer__left p {
-  font-size: 26px;
+  font-size: 20px;
   font-weight: normal;
   color: #fff;
   font-family: googleSans, serif;
@@ -1087,7 +1131,7 @@ footer .footer__wrap .footer__left hr {
   border: 1px dashed #fff;
   opacity: 1;
   margin: 15px 0;
-  width: 80%;
+  width: 38%;
 }
 footer .footer__wrap .footer__left ul li {
   margin: 5px 0;

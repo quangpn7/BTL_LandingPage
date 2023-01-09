@@ -45,5 +45,18 @@ section.problem {
         }
       }
     }
+    .problem__right#problem__holder {
+      ul {
+        list-style-type: square;
+        li {
+          margin: 15px 0;
+          @include txtStyle(20px, bold, $black-color);
+          &::marker {
+            color: $orange-color;
+            font-size: 30px;
+          }
+        }
+      }
+    }
   }
 }

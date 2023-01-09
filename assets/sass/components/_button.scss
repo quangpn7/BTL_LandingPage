@@ -45,9 +45,9 @@
   background-color: $orange-tag-color;
   border: 1px solid transparent;
   border-radius: 25px;
-  padding: 0px 26px;
+  padding: 0px 15px;
   cursor: pointer;
-  @include txtStyle(24px, normal, $white-color);
+  @include txtStyle(22px, normal, $white-color);
   text-decoration: none;
   transition: all 0.2s linear;
   &:hover {
