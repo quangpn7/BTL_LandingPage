@@ -11,9 +11,12 @@ section.problem {
     margin: 0 auto;
     .problem__left {
       img {
+        border-radius: 30px;
         background-size: cover;
-        height: 100%;
+        // height: 100%;
         width: 100%;
+        height: 420px;
+        object-fit: cover;
       }
     }
     .problem__right {
