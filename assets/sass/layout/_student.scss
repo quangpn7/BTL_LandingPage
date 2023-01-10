@@ -2,7 +2,6 @@ section.student {
   padding-top: 90px;
   padding-bottom: 60px;
   background: $gray-white-bg;
-
   .student__wrap {
     .student__title {
       h3 {
@@ -25,7 +24,7 @@ section.student {
     }
     .student__slider {
       margin-top: 30px !important;
-
+      max-width: 1300px;
       .student__slider-box {
         .slick-track {
           padding-top: 10px;

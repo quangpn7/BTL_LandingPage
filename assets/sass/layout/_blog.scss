@@ -3,6 +3,7 @@ section.blog {
   background: $gray-white-bg;
   .blog__wrap {
     width: 75%;
+    max-width: 1300px;
     margin: auto;
     .blog__title {
       h1 {
