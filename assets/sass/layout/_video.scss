@@ -1,4 +1,5 @@
 section.video {
+  max-width: 1200px;
   padding-top: 50px;
   padding-bottom: 50px;
   background: $pink-color;
@@ -18,6 +19,16 @@ section.video {
       @include txtStyle(24px, normal, $black-color);
       margin-top: 25px;
       line-height: 1;
+    }
+  }
+}
+@include responsive("large-down") {
+  section.video {
+    .video__wrap {
+      .video__title {
+        width: 70%;
+        margin: 0 auto;
+      }
     }
   }
 }

@@ -1,6 +1,6 @@
 section.course {
   padding-top: 50px;
-  padding-bottom: 90px;
+  padding-bottom: 50px;
   .course__wrap {
     .course__title {
       h3 {
@@ -74,6 +74,23 @@ section.course {
   .course__li {
     li {
       margin: 10px 0;
+    }
+  }
+}
+// -------RESPONSIVE---------
+@include responsive("large-down") {
+  section.course {
+    .course__wrap {
+      .course__description {
+        .tab-pane {
+          margin-top: 20px;
+          .course__img {
+            img {
+              margin-top: 20px;
+            }
+          }
+        }
+      }
     }
   }
 }

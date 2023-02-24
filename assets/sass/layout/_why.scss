@@ -13,7 +13,7 @@ section.why {
     margin-top: 70px;
     .why__row {
       .why__item {
-        height: 190px;
+        height: 300px;
         margin-bottom: 30px;
         .why__img {
           img {
@@ -34,6 +34,21 @@ section.why {
             text-align: justify;
           }
         }
+      }
+    }
+  }
+}
+// -------RESPONSIVE---------
+@include responsive("large-down") {
+  section.why {
+    .why__title {
+      width: 70%;
+      margin: 0 auto;
+    }
+    .why__row {
+      .why__item {
+        height: auto !important;
+        margin-bottom: 50px !important;
       }
     }
   }

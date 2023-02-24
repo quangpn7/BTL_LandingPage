@@ -230,7 +230,8 @@ header .header__mid .header__nav .navbar #navbarNav .nav-link.active::after {
   width: 100%;
 }
 header .header__mid .header__form {
-  width: 800px;
+  width: 100%;
+  max-width: 1200px;
   margin: 0 auto;
   margin-bottom: 70px;
 }
@@ -377,6 +378,23 @@ header.header__courses .header__form .header__form-input input {
   margin: 20px 0;
 }
 
+@media screen and (max-width: 991.98px) {
+  #navbarNav .navbar-nav {
+    align-items: start !important;
+  }
+  #navbarNav ul li {
+    margin: 10px 0 !important;
+  }
+  #navbarNav .nav-link.active {
+    color: #ffc901 !important;
+  }
+  #navbarNav .nav-link.active::after {
+    content: "";
+    display: block;
+    border-bottom: 1px solid #ffc901;
+    width: 100%;
+  }
+}
 section.form {
   padding-top: 60px;
   background-image: url("../img/bg-gradient-yellow.png");
@@ -405,9 +423,6 @@ section.form .form__container .form__left form .form-select {
   border: none;
 }
 section.form .form__container .form__left form .form-control::-moz-placeholder, section.form .form__container .form__left form .form-select::-moz-placeholder {
-  font-style: italic;
-}
-section.form .form__container .form__left form .form-control:-ms-input-placeholder, section.form .form__container .form__left form .form-select:-ms-input-placeholder {
   font-style: italic;
 }
 section.form .form__container .form__left form .form-control::placeholder,
@@ -465,6 +480,19 @@ section.form .form__container .form__right .form__box-txt .form__hotline img {
   width: 60px;
 }
 
+@media screen and (max-width: 991.98px) {
+  section.form .form__container {
+    width: 100% !important;
+  }
+  section.form .form__container .form__left {
+    width: 80%;
+    max-width: none;
+  }
+  section.form .form__container .form__right {
+    margin-left: 0;
+    width: 80%;
+  }
+}
 section.why {
   padding-bottom: 50px;
 }
@@ -481,7 +509,7 @@ section.why .why__grid {
   margin-top: 70px;
 }
 section.why .why__grid .why__row .why__item {
-  height: 190px;
+  height: 300px;
   margin-bottom: 30px;
 }
 section.why .why__grid .why__row .why__item .why__img img {
@@ -506,7 +534,18 @@ section.why .why__grid .why__row .why__item .why__txt p {
   text-align: justify;
 }
 
+@media screen and (max-width: 991.98px) {
+  section.why .why__title {
+    width: 70%;
+    margin: 0 auto;
+  }
+  section.why .why__row .why__item {
+    height: auto !important;
+    margin-bottom: 50px !important;
+  }
+}
 section.video {
+  max-width: 1200px;
   padding-top: 50px;
   padding-bottom: 50px;
   background: #fff3ea;
@@ -529,6 +568,12 @@ section.video .video__wrap p {
   line-height: 1;
 }
 
+@media screen and (max-width: 991.98px) {
+  section.video .video__wrap .video__title {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
 .title {
   text-align: center;
 }
@@ -556,8 +601,11 @@ section.number {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  max-width: 1200px;
 }
 section.number .number__wrap .number__title {
+  width: 100%;
+  margin: 0 auto;
   padding-top: 80px;
 }
 section.number .number__wrap .number__title h3 {
@@ -575,6 +623,7 @@ section.number .number__wrap .number__title hr {
 }
 section.number .number__wrap .number__box {
   max-width: 1200px;
+  margin: 0 auto;
   padding-bottom: 40px;
   margin-top: 40px !important;
 }
@@ -594,17 +643,32 @@ section.number .number__wrap .number__box .number__item .number__item-txt {
   font-size: 20px;
   font-weight: "";
   color: #000000;
+  overflow-wrap: break-word;
+  margin: 15px auto 0 auto;
   line-height: 1.2;
   margin-top: 15px;
-  padding: 0 55px;
 }
-section.number .number__wrap .number__box .number__item:last-child {
-  border: none;
+section.number .number__wrap .number__box .number__item:nth-child(odd) .number__item-txt {
+  width: 70%;
 }
 
+@media screen and (max-width: 991.98px) {
+  section.number .number__wrap .number__title {
+    width: 70%;
+    margin: 0 auto;
+  }
+  section.number .number__wrap .number__box .number__item {
+    margin-bottom: 20px;
+  }
+  section.number .number__wrap .number__box .number__item .number__item-txt {
+    width: 80%;
+    padding: 0;
+    margin: 5px auto 0 auto;
+  }
+}
 section.course {
   padding-top: 50px;
-  padding-bottom: 90px;
+  padding-bottom: 50px;
 }
 section.course .course__wrap .course__title h3 {
   color: #000000;
@@ -677,6 +741,14 @@ section.course .course__li li {
   margin: 10px 0;
 }
 
+@media screen and (max-width: 991.98px) {
+  section.course .course__wrap .course__description .tab-pane {
+    margin-top: 20px;
+  }
+  section.course .course__wrap .course__description .tab-pane .course__img img {
+    margin-top: 20px;
+  }
+}
 section.student {
   padding-top: 90px;
   padding-bottom: 60px;
@@ -780,8 +852,7 @@ section.testi .testi__title h1 {
 }
 section.testi .testi__slider-wrap {
   padding-bottom: 50px;
-  min-width: 1000px;
-  max-width: 1700px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 section.testi .testi__slider-wrap .testi__slider {
@@ -799,7 +870,6 @@ section.testi .testi__slider-wrap .testi__slider .testi__item img {
   margin-bottom: -90px;
 }
 section.testi .testi__slider-wrap .testi__slider .testi__item .testi__text {
-  text-align: justify;
   background-color: #fff;
   border-radius: 20px;
   padding: 90px 20px 30px 20px;
@@ -815,6 +885,12 @@ section.testi .testi__slider-wrap .testi__slider .testi__item .testi__text p:las
   margin-bottom: 0 !important;
 }
 
+@media screen and (max-width: 991.98px) {
+  section.testi .testi__title {
+    width: 60%;
+    margin: 0 auto;
+  }
+}
 section.teacher .teacher__slider {
   width: 85%;
   max-width: 1300px;

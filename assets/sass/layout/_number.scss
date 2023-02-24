@@ -1,8 +1,10 @@
 section.number {
   @include innerBackground("../img/index/bg-2.png", center, cover, 1);
-
+  max-width: 1200px;
   .number__wrap {
     .number__title {
+      width: 100%;
+      margin: 0 auto;
       padding-top: 80px;
       h3 {
         color: $black-color;
@@ -19,6 +21,7 @@ section.number {
     }
     .number__box {
       max-width: 1200px;
+      margin: 0 auto;
       padding-bottom: 40px;
       margin-top: 40px !important;
       .number__item {
@@ -34,13 +37,39 @@ section.number {
         }
         .number__item-txt {
           @include txtStyle(20px, "", $black-color);
+          overflow-wrap: break-word;
+          margin: 15px auto 0 auto;
           line-height: 1.2;
           margin-top: 15px;
-          padding: 0 55px;
+
+          // padding: 0 55px;
         }
       }
-      .number__item:last-child {
-        border: none;
+      .number__item:nth-child(odd) {
+        .number__item-txt {
+          width: 70%;
+        }
+      }
+    }
+  }
+}
+// -------RESPONSIVE---------
+@include responsive("large-down") {
+  section.number {
+    .number__wrap {
+      .number__title {
+        width: 70%;
+        margin: 0 auto;
+      }
+      .number__box {
+        .number__item {
+          margin-bottom: 20px;
+          .number__item-txt {
+            width: 80%;
+            padding: 0;
+            margin: 5px auto 0 auto;
+          }
+        }
       }
     }
   }
