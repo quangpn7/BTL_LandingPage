@@ -1,6 +1,8 @@
 section.number {
   @include innerBackground("../img/index/bg-2.png", center, cover, 1);
-  max-width: 1200px;
+  width: 100%;
+
+  margin: 0 auto;
   .number__wrap {
     .number__title {
       width: 100%;
@@ -60,6 +62,30 @@ section.number {
       .number__title {
         width: 70%;
         margin: 0 auto;
+      }
+      .number__box {
+        .number__item {
+          margin-bottom: 20px;
+          .number__item-txt {
+            width: 80%;
+            padding: 0;
+            margin: 5px auto 0 auto;
+          }
+        }
+      }
+    }
+  }
+}
+@include responsive("small") {
+  section.number {
+    .number__wrap {
+      .number__title {
+        width: 90%;
+        margin: 0 auto;
+        h3 {
+          width: 80%;
+          margin: 0 auto;
+        }
       }
       .number__box {
         .number__item {

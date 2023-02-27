@@ -63,3 +63,6 @@ footer {
   @include txtStyle(16px, normal, $span-yellow);
   padding: 10px 0;
 }
+// ----RESPONSIVE---
+@include responsive("small") {
+}

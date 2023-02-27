@@ -52,3 +52,12 @@ section.student.course-page {
     1
   );
 }
+// -------RESPONSIVE-----
+@include responsive("small") {
+  section.student {
+    .student__title {
+      width: 90%;
+      margin: 0 auto;
+    }
+  }
+}

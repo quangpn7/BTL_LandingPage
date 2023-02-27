@@ -395,6 +395,26 @@ header.header__courses .header__form .header__form-input input {
     width: 100%;
   }
 }
+@media screen and (max-width: 576px) {
+  .header__top .header__contact {
+    width: 90% !important;
+  }
+  .header__top .header__contact .header__contact-left {
+    flex-direction: column;
+  }
+  .header__top .header__contact .header__contact-left .contact__phone img {
+    margin-left: 0 !important;
+  }
+  .header__top .header__contact .header__contact-right {
+    display: none;
+  }
+  .header__mid {
+    padding-bottom: 20px !important;
+  }
+  .header__mid .header__form .header__form-text-box {
+    margin-top: 80px !important;
+  }
+}
 section.form {
   padding-top: 60px;
   background-image: url("../img/bg-gradient-yellow.png");
@@ -447,12 +467,15 @@ section.form .form__container .form__right {
   background-position: center;
   background-size: cover;
   margin-left: -60px;
+  position: relative;
 }
 section.form .form__container .form__right .form__box-txt {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   color: #fff;
-  margin-left: 70px;
-  left: 21%;
-  top: 32%;
+  margin-left: 30px;
 }
 section.form .form__container .form__right .form__box-txt hr {
   width: 50%;
@@ -480,17 +503,58 @@ section.form .form__container .form__right .form__box-txt .form__hotline img {
   width: 60px;
 }
 
-@media screen and (max-width: 991.98px) {
+@media screen and (max-width: 992px) {
+  section.form .form__container {
+    width: 100% !important;
+  }
+  section.form .form__container .form__right {
+    margin-left: 0;
+    width: 100%;
+    max-width: 525px;
+  }
+  section.form .form__container .form__right .form__box-txt {
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 768px) {
   section.form .form__container {
     width: 100% !important;
   }
   section.form .form__container .form__left {
-    width: 80%;
+    width: 70%;
     max-width: none;
   }
   section.form .form__container .form__right {
     margin-left: 0;
+    width: 70%;
+  }
+  section.form .form__container .form__right .form__box-txt {
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 576px) {
+  section.form .form__title {
+    width: 90%;
+    margin: 0 auto;
+  }
+  section.form .form__container .form__box {
+    width: 90%;
+  }
+  section.form .form__container .form__right .form__box-txt {
     width: 80%;
+    margin-left: 0 !important;
+  }
+  section.form .form__container .form__right .form__box-txt .form__hotline {
+    display: block !important;
+  }
+  section.form .form__container .form__right .form__box-txt .form__hotline img {
+    display: none;
+  }
+  section.form .form__container .form__right .form__box-txt .form__hotline .ms-2 {
+    margin-left: 0 !important;
+  }
+  section.form .form__container .form__right .form__box-txt .form__hotline p {
+    font-size: 30px !important;
   }
 }
 section.why {
@@ -544,8 +608,18 @@ section.why .why__grid .why__row .why__item .why__txt p {
     margin-bottom: 50px !important;
   }
 }
+@media screen and (max-width: 576px) {
+  section.why .why__title {
+    width: 90%;
+    margin: 0 auto;
+  }
+  section.why .why__row .why__item {
+    height: auto !important;
+    margin-bottom: 50px !important;
+  }
+}
 section.video {
-  max-width: 1200px;
+  width: 100%;
   padding-top: 50px;
   padding-bottom: 50px;
   background: #fff3ea;
@@ -574,6 +648,14 @@ section.video .video__wrap p {
     margin: 0 auto;
   }
 }
+@media screen and (max-width: 576px) {
+  section.video .video__title {
+    width: 90% !important;
+  }
+  section.video .video__wrap .video__frame {
+    width: 90%;
+  }
+}
 .title {
   text-align: center;
 }
@@ -596,12 +678,23 @@ section.video .video__wrap p {
   margin: 10px auto;
 }
 
+@media screen and (max-width: 576px) {
+  hr.first-hr {
+    width: 70% !important;
+    margin: 10px auto;
+  }
+  hr.snd-hr {
+    width: 50% !important;
+    margin: 10px auto;
+  }
+}
 section.number {
   background-image: url("../img/index/bg-2.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
 }
 section.number .number__wrap .number__title {
   width: 100%;
@@ -655,6 +748,24 @@ section.number .number__wrap .number__box .number__item:nth-child(odd) .number__
 @media screen and (max-width: 991.98px) {
   section.number .number__wrap .number__title {
     width: 70%;
+    margin: 0 auto;
+  }
+  section.number .number__wrap .number__box .number__item {
+    margin-bottom: 20px;
+  }
+  section.number .number__wrap .number__box .number__item .number__item-txt {
+    width: 80%;
+    padding: 0;
+    margin: 5px auto 0 auto;
+  }
+}
+@media screen and (max-width: 576px) {
+  section.number .number__wrap .number__title {
+    width: 90%;
+    margin: 0 auto;
+  }
+  section.number .number__wrap .number__title h3 {
+    width: 80%;
     margin: 0 auto;
   }
   section.number .number__wrap .number__box .number__item {
@@ -724,11 +835,15 @@ section.course .course__wrap .course__description .tab-pane h3 {
   font-family: googleSansBold, serif;
 }
 section.course .course__wrap .course__description .tab-pane p {
-  text-align: justify;
+  text-align: start;
   font-size: 18px;
   font-weight: normal;
   color: #000000;
   font-family: googleSans, serif;
+}
+section.course .course__wrap .course__description .tab-pane i {
+  display: block;
+  margin-top: 20px !important;
 }
 section.course .course__wrap .course__description .tab-pane .course__img img {
   border-radius: 30px;
@@ -747,6 +862,24 @@ section.course .course__li li {
   }
   section.course .course__wrap .course__description .tab-pane .course__img img {
     margin-top: 20px;
+  }
+}
+@media screen and (max-width: 576px) {
+  section.course .course__title {
+    width: 90%;
+    margin: 0 auto;
+  }
+  section.course .course__wrap .course__description .text-end {
+    display: flex;
+    flex-direction: column;
+  }
+  section.course .course__wrap .course__description .text-end a {
+    margin: 5px 0 !important;
+    text-align: center;
+    width: 300px;
+  }
+  section.course .course__wrap ul li:nth-child(2) button {
+    margin-bottom: 0 !important;
   }
 }
 section.student {
@@ -796,6 +929,12 @@ section.student.course-page {
   background-size: cover;
 }
 
+@media screen and (max-width: 576px) {
+  section.student .student__title {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
 section.blog {
   padding: 95px 0;
   background: #fbfbfb;
@@ -843,6 +982,24 @@ section.blog .blog__wrap .blog__container .blog__right .blog__sub p {
   margin: 0 !important;
 }
 
+@media screen and (max-width: 768px) {
+  .blog__right {
+    margin-top: 20px;
+    gap: 15px;
+  }
+}
+@media screen and (max-width: 576px) {
+  section.blog .blog__wrap {
+    width: 90%;
+    margin: 0 auto;
+  }
+  section.blog .blog__wrap .blog__container .blog__right .blog__sub .blog__sub-text h4 {
+    font-size: 16px;
+  }
+  section.blog .blog__wrap .blog__container .blog__right .blog__sub .blog__sub-text p {
+    font-size: 14px;
+  }
+}
 section.testi {
   padding-top: 30px;
   background-color: #fff3ea;
@@ -889,6 +1046,11 @@ section.testi .testi__slider-wrap .testi__slider .testi__item .testi__text p:las
   section.testi .testi__title {
     width: 60%;
     margin: 0 auto;
+  }
+}
+@media screen and (max-width: 576px) {
+  section.testi .testi__title {
+    width: 90%;
   }
 }
 section.teacher .teacher__slider {

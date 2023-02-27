@@ -19,3 +19,13 @@
     margin: 10px auto;
   }
 }
+@include responsive("small") {
+  hr.first-hr {
+    width: 70% !important;
+    margin: 10px auto;
+  }
+  hr.snd-hr {
+    width: 50% !important;
+    margin: 10px auto;
+  }
+}

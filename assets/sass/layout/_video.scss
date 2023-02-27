@@ -1,5 +1,6 @@
 section.video {
-  max-width: 1200px;
+  // max-width: 1200px;
+  width: 100%;
   padding-top: 50px;
   padding-bottom: 50px;
   background: $pink-color;
@@ -28,6 +29,18 @@ section.video {
       .video__title {
         width: 70%;
         margin: 0 auto;
+      }
+    }
+  }
+}
+@include responsive("small") {
+  section.video {
+    .video__title {
+      width: 90% !important;
+    }
+    .video__wrap {
+      .video__frame {
+        width: 90%;
       }
     }
   }

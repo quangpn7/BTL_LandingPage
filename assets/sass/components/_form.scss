@@ -39,12 +39,14 @@ section.form {
     .form__right {
       @include innerBackground("../img/form-right-bg.png", center, cover, 1);
       margin-left: -60px;
-
+      position: relative;
       .form__box-txt {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
         color: $white-color;
-        margin-left: 70px;
-        left: 21%;
-        top: 32%;
+        margin-left: 30px;
         hr {
           width: 50%;
         }
@@ -74,19 +76,68 @@ section.form {
     }
   }
 }
-// -------RESPONSIVE---------
-@include responsive("large-down") {
+@include responsive("large") {
+  section.form {
+    .form__container {
+      width: 100% !important;
+
+      .form__right {
+        margin-left: 0;
+        width: 100%;
+        max-width: 525px;
+        .form__box-txt {
+          margin-left: 0;
+        }
+      }
+    }
+  }
+}
+@include responsive("medium") {
   section.form {
     .form__container {
       width: 100% !important;
 
       .form__left {
-        width: 80%;
+        width: 70%;
         max-width: none;
       }
       .form__right {
         margin-left: 0;
-        width: 80%;
+        width: 70%;
+        .form__box-txt {
+          margin-left: 0;
+        }
+      }
+    }
+  }
+}
+@include responsive("small") {
+  section.form {
+    .form__title {
+      width: 90%;
+      margin: 0 auto;
+    }
+    .form__container {
+      .form__box {
+        width: 90%;
+      }
+      .form__right {
+        .form__box-txt {
+          width: 80%;
+          margin-left: 0 !important;
+          .form__hotline {
+            display: block !important;
+            img {
+              display: none;
+            }
+            .ms-2 {
+              margin-left: 0 !important;
+            }
+            p {
+              font-size: 30px !important;
+            }
+          }
+        }
       }
     }
   }

@@ -53,3 +53,10 @@ section.testi {
     }
   }
 }
+@include responsive("small") {
+  section.testi {
+    .testi__title {
+      width: 90%;
+    }
+  }
+}

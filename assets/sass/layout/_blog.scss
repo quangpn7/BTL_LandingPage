@@ -51,3 +51,31 @@ section.blog {
     }
   }
 }
+@include responsive("medium") {
+  .blog__right {
+    margin-top: 20px;
+    gap: 15px;
+  }
+}
+@include responsive("small") {
+  section.blog {
+    .blog__wrap {
+      width: 90%;
+      margin: 0 auto;
+      .blog__container {
+        .blog__right {
+          .blog__sub {
+            .blog__sub-text {
+              h4 {
+                font-size: 16px;
+              }
+              p {
+                font-size: 14px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
