@@ -25,3 +25,12 @@ section.highlight {
     }
   }
 }
+//------RESPONSIVE----
+@include responsive("small") {
+  section.highlight {
+    padding: 50px 0;
+  }
+  #highlight__holder {
+    margin-top: 20px;
+  }
+}

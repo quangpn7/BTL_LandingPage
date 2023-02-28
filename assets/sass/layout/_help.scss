@@ -33,3 +33,31 @@ section.help {
     }
   }
 }
+//------RESPONSIVE----
+@include responsive("large") {
+  .help__item:nth-child(2) {
+    .help__txt {
+      order: 2;
+    }
+  }
+}
+@include responsive("small") {
+  section.help {
+    .help__title {
+      width: 90%;
+      margin: 0 auto;
+      margin-bottom: 30px;
+    }
+    .help__content {
+      &-container {
+        .help__item {
+          .help__img {
+            img {
+              height: auto !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}

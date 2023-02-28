@@ -500,7 +500,7 @@ section.form .form__container .form__right .form__box-txt hr {
   margin-top: 5px !important;
 }
 section.form .form__container .form__right .form__box-txt .form__hotline img {
-  width: 60px;
+  width: 40px;
 }
 
 @media screen and (max-width: 992px) {
@@ -1202,6 +1202,19 @@ section.problem .problem__container .problem__right#problem__holder ul li::marke
   font-size: 30px;
 }
 
+@media screen and (max-width: 576px) {
+  section.problem .problem__title {
+    width: 90%;
+    margin: 0 auto;
+  }
+  section.problem .problem__container .problem__left img {
+    height: auto;
+  }
+  section.problem .problem__container .problem__right#problem__holder ul li {
+    margin: 5px 0;
+    line-height: 1.5;
+  }
+}
 section.help {
   padding-top: 100px;
 }
@@ -1234,6 +1247,21 @@ section.help .help__content .help__content-container .help__item .help__txt ul >
   margin-bottom: 0;
 }
 
+@media screen and (max-width: 992px) {
+  .help__item:nth-child(2) .help__txt {
+    order: 2;
+  }
+}
+@media screen and (max-width: 576px) {
+  section.help .help__title {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  section.help .help__content-container .help__item .help__img img {
+    height: auto !important;
+  }
+}
 section.highlight {
   padding: 80px 0;
 }
@@ -1260,6 +1288,14 @@ section.highlight .highlight__content .highlight__right ul > li {
   margin-bottom: 0;
 }
 
+@media screen and (max-width: 576px) {
+  section.highlight {
+    padding: 50px 0;
+  }
+  #highlight__holder {
+    margin-top: 20px;
+  }
+}
 section.others {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -1275,12 +1311,12 @@ section.others .others__title h1 {
   color: #fff;
 }
 section.others .others__container {
-  gap: 20px;
-  width: 70%;
   max-width: 1300px;
   margin: 0 auto;
 }
 section.others .others__container .others__item {
+  margin-left: 10px;
+  width: calc(50% - 10px);
   padding: 10px;
   border-radius: 20px;
   background: #fff;
@@ -1321,7 +1357,7 @@ section.others .others__container .others__item .others__right .others__txt p {
   font-weight: normal;
   color: #000000;
   margin-bottom: 0;
-  text-align: justify;
+  text-align: start;
 }
 section.others .others__container .others__item .others__right .others__txt .btn-course-detail {
   display: inline-block;
@@ -1332,6 +1368,21 @@ section.others .others__container .others__item .others__right .others__txt .btn
   background: #ffcc00;
 }
 
+@media screen and (max-width: 992px) {
+  section.others .others__container {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 576px) {
+  section.others .others__container {
+    width: 90%;
+  }
+  section.others .others__container .others__item.col-12 {
+    width: 100% !important;
+    margin-bottom: 10px;
+    margin-left: 0;
+  }
+}
 section.questions {
   padding: 40px 0;
 }
@@ -1347,6 +1398,24 @@ section.questions .questions__wrap .questions__right img {
   width: 100%;
 }
 
+@media screen and (max-width: 576px) {
+  section.questions .questions__title {
+    width: 90%;
+    margin: 0 auto;
+  }
+  section.questions .questions__wrap {
+    margin-top: 30px;
+    width: 95%;
+  }
+  section.questions .questions__wrap .questions__right {
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 992px) {
+  section.questions .questions__wrap .questions__right {
+    margin-top: 20px;
+  }
+}
 footer {
   background-image: url("../img/footer-thumb.png");
   background-repeat: no-repeat;

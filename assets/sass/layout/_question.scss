@@ -17,3 +17,28 @@ section.questions {
     }
   }
 }
+// -----RESPONSIVE------
+@include responsive("small") {
+  section.questions {
+    .questions__title {
+      width: 90%;
+      margin: 0 auto;
+    }
+    .questions__wrap {
+      margin-top: 30px;
+      width: 95%;
+      .questions__right {
+        margin-top: 20px;
+      }
+    }
+  }
+}
+@include responsive("large") {
+  section.questions {
+    .questions__wrap {
+      .questions__right {
+        margin-top: 20px;
+      }
+    }
+  }
+}

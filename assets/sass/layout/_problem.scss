@@ -63,3 +63,27 @@ section.problem {
     }
   }
 }
+//------RESPONSIVE----
+@include responsive("small") {
+  section.problem {
+    .problem__title {
+      width: 90%;
+      margin: 0 auto;
+    }
+    .problem__container {
+      .problem__left {
+        img {
+          height: auto;
+        }
+      }
+      .problem__right#problem__holder {
+        ul {
+          li {
+            margin: 5px 0;
+            line-height: 1.5;
+          }
+        }
+      }
+    }
+  }
+}
