@@ -238,6 +238,11 @@ header .header__mid .header__form {
 header .header__mid .header__form .header__form-text-box {
   margin-top: 180px;
 }
+@media (max-width: 768px) {
+  header .header__mid .header__form .header__form-text-box {
+    margin-top: 50px;
+  }
+}
 header .header__mid .header__form p.header__title {
   font-size: 50px;
   font-weight: bold;
@@ -413,6 +418,9 @@ header.header__courses .header__form .header__form-input input {
   }
   .header__mid .header__form .header__form-text-box {
     margin-top: 80px !important;
+  }
+  .header__mid .header__form .header__form-text-box .header__info {
+    margin: 20px 0;
   }
 }
 section.form {
@@ -1138,6 +1146,35 @@ section.teacher .teacher__title {
   margin-top: 80px;
 }
 
+@media screen and (max-width: 576px) {
+  section.teacher .teacher__slider {
+    margin: 15px auto 0 auto;
+  }
+  section.teacher .teacher__slider-left p {
+    margin: 10px auto !important;
+  }
+  section.teacher .teacher__slider-left .slider-left-img img {
+    display: none;
+  }
+  section.teacher .teacher__slider-right img {
+    height: 200px !important;
+  }
+  section.teacher .teacher__slider-right .slick-dots li button::before {
+    font-size: 10px !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  section.teacher .teacher__slider {
+    margin: -130px auto 0 auto;
+  }
+  section.teacher .teacher__slider .teacher__slider-left .slider-left-img img {
+    display: none;
+  }
+  section.teacher .teacher__info .teacher__item .teacher__img img {
+    width: 85% !important;
+    margin-bottom: 20px;
+  }
+}
 section.problem {
   padding-top: 100px;
 }

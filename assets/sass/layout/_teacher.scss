@@ -90,3 +90,57 @@ section.teacher {
     margin-top: 80px;
   }
 }
+
+@include responsive("small") {
+  section.teacher {
+    .teacher__slider {
+      margin: 15px auto 0 auto;
+      &-left {
+        p {
+          margin: 10px auto !important;
+        }
+        .slider-left-img {
+          img {
+            display: none;
+          }
+        }
+      }
+      &-right {
+        img {
+          height: 200px !important;
+        }
+        .slick-dots {
+          li {
+            button::before {
+              font-size: 10px !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@include responsive("medium") {
+  section.teacher {
+    .teacher__slider {
+      margin: -130px auto 0 auto;
+      .teacher__slider-left {
+        .slider-left-img {
+          img {
+            display: none;
+          }
+        }
+      }
+    }
+    .teacher__info {
+      .teacher__item {
+        .teacher__img {
+          img {
+            width: 85% !important;
+            margin-bottom: 20px;
+          }
+        }
+      }
+    }
+  }
+}

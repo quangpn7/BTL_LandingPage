@@ -92,6 +92,9 @@ header {
       margin-bottom: 70px;
       .header__form-text-box {
         margin-top: 180px;
+        @media (max-width: $medium) {
+          margin-top: 50px;
+        }
       }
       p.header__title {
         @include txtStyle(50px, bold, $txt-yellow-heading);
@@ -270,6 +273,9 @@ header.header__courses {
     .header__form {
       .header__form-text-box {
         margin-top: 80px !important;
+        .header__info {
+          margin: 20px 0;
+        }
       }
     }
   }
