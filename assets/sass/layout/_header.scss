@@ -237,7 +237,7 @@ header.header__courses {
       align-items: start !important;
     }
     ul li {
-      margin: 10px 0 !important;
+      margin: 10px 10px !important;
     }
 
     .nav-link.active {
@@ -271,6 +271,15 @@ header.header__courses {
   .header__mid {
     padding-bottom: 20px !important;
     .header__form {
+      p.header__title {
+        font-size: 38px !important;
+      }
+      span {
+        font-size: 26px !important;
+      }
+      .header__info {
+        font-size: 20px !important;
+      }
       .header__form-text-box {
         margin-top: 80px !important;
         .header__info {

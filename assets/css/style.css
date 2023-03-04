@@ -388,7 +388,7 @@ header.header__courses .header__form .header__form-input input {
     align-items: start !important;
   }
   #navbarNav ul li {
-    margin: 10px 0 !important;
+    margin: 10px 10px !important;
   }
   #navbarNav .nav-link.active {
     color: #ffc901 !important;
@@ -415,6 +415,15 @@ header.header__courses .header__form .header__form-input input {
   }
   .header__mid {
     padding-bottom: 20px !important;
+  }
+  .header__mid .header__form p.header__title {
+    font-size: 38px !important;
+  }
+  .header__mid .header__form span {
+    font-size: 26px !important;
+  }
+  .header__mid .header__form .header__info {
+    font-size: 20px !important;
   }
   .header__mid .header__form .header__form-text-box {
     margin-top: 80px !important;
@@ -1418,6 +1427,20 @@ section.others .others__container .others__item .others__right .others__txt .btn
     width: 100% !important;
     margin-bottom: 10px;
     margin-left: 0;
+  }
+  section.others .others__container .others__item .others__left {
+    width: 0;
+  }
+  section.others .others__container .others__item .others__left img {
+    display: none;
+  }
+  section.others .others__container .others__item .others__right {
+    width: 100%;
+  }
+  section.others .others__container .others__item .others__right .others__inner-desc {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
   }
 }
 section.questions {
